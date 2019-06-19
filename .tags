@@ -1,0 +1,825 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/84dbaf5/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+mockOpen	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^const mockOpen = jest.fn();$/;"	constant	line:8
+mockSetRequestHeader	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^const mockSetRequestHeader = jest.fn();$/;"	constant	line:9
+mockSend	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^const mockSend = jest.fn();$/;"	constant	line:10
+mockSetTimeout	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^const mockSetTimeout = jest.fn();$/;"	constant	line:11
+mockOnLoad	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^const mockOnLoad = jest.fn();$/;"	constant	line:12
+mockOnError	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^const mockOnError = jest.fn();$/;"	constant	line:13
+mockOnTimeout	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^const mockOnTimeout = jest.fn();$/;"	constant	line:14
+XMLHttpRequest	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^global.XMLHttpRequest = class MockXMLHttpRequest {$/;"	class	line:16	class:global
+MockXMLHttpRequest	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^global.XMLHttpRequest = class MockXMLHttpRequest {$/;"	class	line:16
+constructor	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^  constructor(callbackToFire = '') {$/;"	function	line:17
+constructor	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^  constructor(callbackToFire = '') {$/;"	method	line:17	class:global.XMLHttpRequest	signature:(callbackToFire = '')
+switch	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^    switch (callbackToFire) {$/;"	function	line:19
+timeout	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^  set timeout(t) {$/;"	setter	line:39	class:global.XMLHttpRequest	signature:(t)
+set onload	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^  set onload(fn) {$/;"	function	line:44
+onload	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^  set onload(fn) {$/;"	setter	line:44	class:global.XMLHttpRequest	signature:(fn)
+set onerror	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^  set onerror(fn) {$/;"	function	line:51
+onerror	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^  set onerror(fn) {$/;"	setter	line:51	class:global.XMLHttpRequest	signature:(fn)
+set ontimeout	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^  set ontimeout(fn) {$/;"	function	line:58
+ontimeout	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^  set ontimeout(fn) {$/;"	setter	line:58	class:global.XMLHttpRequest	signature:(fn)
+XMLHttpRequest	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^global.XMLHttpRequest.prototype.open = mockOpen;$/;"	class	line:65	class:global
+open	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^global.XMLHttpRequest.prototype.open = mockOpen;$/;"	method	line:65	class:global.XMLHttpRequest
+setRequestHeader	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^global.XMLHttpRequest.prototype.setRequestHeader = mockSetRequestHeader;$/;"	method	line:66	class:global.XMLHttpRequest
+send	/Users/colin/code/github/react-native-offline/test/makeHttpRequest.test.js	/^global.XMLHttpRequest.prototype.send = mockSend;$/;"	method	line:67	class:global.XMLHttpRequest
+dispatch	/Users/colin/code/github/react-native-offline/test/ReduxNetworkProvider.test.js	/^const dispatch = jest.fn();$/;"	constant	line:14
+isConnected	/Users/colin/code/github/react-native-offline/test/ReduxNetworkProvider.test.js	/^  isConnected: false,$/;"	property	line:18	class:props
+actionQueue	/Users/colin/code/github/react-native-offline/test/ReduxNetworkProvider.test.js	/^  actionQueue: [],$/;"	property	line:19	class:props
+props	/Users/colin/code/github/react-native-offline/test/ReduxNetworkProvider.test.js	/^const props = {$/;"	class	line:16
+getProps	/Users/colin/code/github/react-native-offline/test/ReduxNetworkProvider.test.js	/^const getProps = (overrides = {}) => ({ ...props, ...overrides });$/;"	constant	line:22
+getFetchAction	/Users/colin/code/github/react-native-offline/test/createNetworkMiddleware.test.js	/^const getFetchAction = type => ({$/;"	constant	line:11
+fetchData	/Users/colin/code/github/react-native-offline/test/createNetworkMiddleware.test.js	/^  function fetchData(dispatch) {$/;"	function	line:172
+fetchData	/Users/colin/code/github/react-native-offline/test/createNetworkMiddleware.test.js	/^  function fetchData(dispatch) {$/;"	function	line:172	signature:(dispatch)
+fetchSomethingWithoutInterception	/Users/colin/code/github/react-native-offline/test/createNetworkMiddleware.test.js	/^  function fetchSomethingWithoutInterception(dispatch) {$/;"	function	line:179
+fetchSomethingWithoutInterception	/Users/colin/code/github/react-native-offline/test/createNetworkMiddleware.test.js	/^  function fetchSomethingWithoutInterception(dispatch) {$/;"	function	line:179	signature:(dispatch)
+fetchThunk	/Users/colin/code/github/react-native-offline/test/createNetworkMiddleware.test.js	/^    function fetchThunk(dispatch) {$/;"	function	line:324
+fetchThunk	/Users/colin/code/github/react-native-offline/test/createNetworkMiddleware.test.js	/^    function fetchThunk(dispatch) {$/;"	function	line:324	signature:(dispatch)
+type	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^type MethodsMap = {$/;"	class	line:12
+mockAddEventListener	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const mockAddEventListener = jest.fn();$/;"	constant	line:16
+mockRemoveEventListener	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const mockRemoveEventListener = jest.fn();$/;"	constant	line:17
+mockFetch	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const mockFetch = jest.fn(() => false);$/;"	constant	line:18
+mockConnectionChangeHandler	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const mockConnectionChangeHandler = jest.fn();$/;"	constant	line:19
+mockGetConnectionChangeHandler	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const mockGetConnectionChangeHandler = jest.fn($/;"	constant	line:20
+mockIntervalHandler	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const mockIntervalHandler = jest.fn();$/;"	constant	line:23
+mockHandleNetInfoChange	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const mockHandleNetInfoChange = jest.fn();$/;"	constant	line:24
+mockHandleConnectivityChange	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const mockHandleConnectivityChange = jest.fn();$/;"	constant	line:25
+mockCheckInternet	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const mockCheckInternet = jest.fn();$/;"	constant	line:26
+mockPrototypeMethods	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^function mockPrototypeMethods(methodsMap: MethodsMap = {}) {$/;"	function	line:48
+ClassWithMocks	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^  class ClassWithMocks extends NetworkConnectivity {}$/;"	class	line:49	class:mockPrototypeMethods
+mockPrototypeMethods	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^function mockPrototypeMethods(methodsMap: MethodsMap = {}) {$/;"	function	line:48	signature:(methodsMap: MethodsMap = {})
+ChildrenComponent	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const ChildrenComponent = () => <View \/>;$/;"	constant	line:57
+children	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^  children: ChildrenComponent,$/;"	property	line:60	class:initialProps
+initialProps	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const initialProps = {$/;"	class	line:59
+getElement	/Users/colin/code/github/react-native-offline/test/NetworkConnectivity.test.js	/^const getElement = ({$/;"	constant	line:68
+getState	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^const getState = (isConnected = false, ...actionQueue) => ({$/;"	constant	line:5
+type	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  type: 'FETCH_DATA_REQUEST',$/;"	property	line:12	class:prevActionToRetry1
+id	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^    id: '1',$/;"	property	line:14	class:prevActionToRetry1.payload
+payload	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  payload: {$/;"	class	line:13	class:prevActionToRetry1
+retry	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^    retry: true,$/;"	property	line:17	class:prevActionToRetry1.meta
+meta	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  meta: {$/;"	class	line:16	class:prevActionToRetry1
+prevActionToRetry1	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^const prevActionToRetry1 = {$/;"	class	line:11
+type	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  type: 'FETCH_OTHER_REQUEST',$/;"	property	line:21	class:prevActionToRetry2
+isFetching	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^    isFetching: true,$/;"	property	line:23	class:prevActionToRetry2.payload
+payload	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  payload: {$/;"	class	line:22	class:prevActionToRetry2
+retry	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^    retry: true,$/;"	property	line:26	class:prevActionToRetry2.meta
+meta	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  meta: {$/;"	class	line:25	class:prevActionToRetry2
+prevActionToRetry2	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^const prevActionToRetry2 = {$/;"	class	line:20
+type	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  type: 'FETCH_DATA_REQUEST',$/;"	property	line:30	class:prevActionToRetry1WithDifferentPayload
+id	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^    id: '2',$/;"	property	line:32	class:prevActionToRetry1WithDifferentPayload.payload
+payload	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  payload: {$/;"	class	line:31	class:prevActionToRetry1WithDifferentPayload
+retry	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^    retry: true,$/;"	property	line:35	class:prevActionToRetry1WithDifferentPayload.meta
+meta	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  meta: {$/;"	class	line:34	class:prevActionToRetry1WithDifferentPayload
+prevActionToRetry1WithDifferentPayload	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^const prevActionToRetry1WithDifferentPayload = {$/;"	class	line:29
+fetchThunk	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  function fetchThunk(dispatch) {$/;"	function	line:176
+fetchThunk	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^  function fetchThunk(dispatch) {$/;"	function	line:176	signature:(dispatch)
+thunk1	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^          function thunk1(dispatch) {$/;"	function	line:202
+thunk1	/Users/colin/code/github/react-native-offline/test/reducer.test.js	/^          function thunk1(dispatch) {$/;"	function	line:202	signature:(dispatch)
+getElement	/Users/colin/code/github/react-native-offline/test/NetworkConsumer.test.js	/^const getElement = ({ props = {}, children = null } = {}) => ($/;"	constant	line:7
+Consumer	/Users/colin/code/github/react-native-offline/test/NetworkConsumer.test.js	/^function Consumer() {$/;"	function	line:11
+Consumer	/Users/colin/code/github/react-native-offline/test/NetworkConsumer.test.js	/^function Consumer() {$/;"	function	line:11	signature:()
+jsdom	/Users/colin/code/github/react-native-offline/test/setupTestEnv.js	/^const jsdom = new JSDOM('<!doctype html><html><body><\/body><\/html>');$/;"	constant	line:12
+copyProps	/Users/colin/code/github/react-native-offline/test/setupTestEnv.js	/^function copyProps(src, target) {$/;"	function	line:15
+copyProps	/Users/colin/code/github/react-native-offline/test/setupTestEnv.js	/^function copyProps(src, target) {$/;"	function	line:15	signature:(src, target)
+userAgent	/Users/colin/code/github/react-native-offline/test/setupTestEnv.js	/^  userAgent: 'node.js',$/;"	property	line:25	class:global.navigator
+navigator	/Users/colin/code/github/react-native-offline/test/setupTestEnv.js	/^global.navigator = {$/;"	class	line:24	class:global
+originalConsoleError	/Users/colin/code/github/react-native-offline/test/setupTestEnv.js	/^const originalConsoleError = console.error;$/;"	constant	line:35
+pingTimeout	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^  pingTimeout: DEFAULT_TIMEOUT,$/;"	property	line:25	class:args
+pingServerUrl	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^  pingServerUrl: DEFAULT_PING_SERVER_URL,$/;"	property	line:26	class:args
+shouldPing	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^  shouldPing: true,$/;"	property	line:27	class:args
+pingInterval	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^  pingInterval: 0,$/;"	property	line:28	class:args
+pingOnlyIfOffline	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^  pingOnlyIfOffline: false,$/;"	property	line:29	class:args
+pingInBackground	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^  pingInBackground: false,$/;"	property	line:30	class:args
+httpMethod	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^  httpMethod: DEFAULT_HTTP_METHOD,$/;"	property	line:31	class:args
+args	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^const args = {$/;"	class	line:24
+channelLoop	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^    function channelLoop(saga) {$/;"	function	line:74
+channelLoop	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^    function channelLoop(saga) {$/;"	function	line:74	signature:(saga)
+takeChannelAndGetConnection	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^    function takeChannelAndGetConnection(saga, isConnected) {$/;"	function	line:181
+takeChannelAndGetConnection	/Users/colin/code/github/react-native-offline/test/sagas.test.js	/^    function takeChannelAndGetConnection(saga, isConnected) {$/;"	function	line:181	signature:(saga, isConnected)
+thunk1	/Users/colin/code/github/react-native-offline/test/getSimilarActionInQueue.test.js	/^      function thunk1(dispatch) {$/;"	function	line:36
+thunk1	/Users/colin/code/github/react-native-offline/test/getSimilarActionInQueue.test.js	/^      function thunk1(dispatch) {$/;"	function	line:36	signature:(dispatch)
+thunk2	/Users/colin/code/github/react-native-offline/test/getSimilarActionInQueue.test.js	/^    function thunk2(dispatch) {$/;"	function	line:42
+thunk2	/Users/colin/code/github/react-native-offline/test/getSimilarActionInQueue.test.js	/^    function thunk2(dispatch) {$/;"	function	line:42	signature:(dispatch)
+onlineUrl	/Users/colin/code/github/react-native-offline/example/App.js	/^const onlineUrl = 'https:\/\/www.google.com\/';$/;"	constant	line:7
+offlineUrl	/Users/colin/code/github/react-native-offline/example/App.js	/^const offlineUrl = 'https:\/\/www.weifhweopfhwioehfiwoephfpweoifhewifhpewoif.com';$/;"	constant	line:8
+App	/Users/colin/code/github/react-native-offline/example/App.js	/^export default class App extends React.Component {$/;"	class	line:10
+constructor	/Users/colin/code/github/react-native-offline/example/App.js	/^  constructor(props) {$/;"	function	line:11
+constructor	/Users/colin/code/github/react-native-offline/example/App.js	/^  constructor(props) {$/;"	method	line:11	class:App	signature:(props)
+isLoadingComplete	/Users/colin/code/github/react-native-offline/example/App.js	/^      isLoadingComplete: false,$/;"	property	line:14	class:App.constructor.state
+pingUrl	/Users/colin/code/github/react-native-offline/example/App.js	/^        pingUrl: onlineUrl,$/;"	property	line:16	class:App.constructor.state.network
+toggleConnection	/Users/colin/code/github/react-native-offline/example/App.js	/^        toggleConnection: this.toggleConnection,$/;"	property	line:17	class:App.constructor.state.network
+network	/Users/colin/code/github/react-native-offline/example/App.js	/^      network: {$/;"	class	line:15	class:App.constructor.state
+state	/Users/colin/code/github/react-native-offline/example/App.js	/^    this.state = {$/;"	class	line:13	class:App.constructor
+render	/Users/colin/code/github/react-native-offline/example/App.js	/^  render() {$/;"	function	line:42
+styles	/Users/colin/code/github/react-native-offline/example/App.js	/^const styles = StyleSheet.create({$/;"	constant	line:64
+expo	/Users/colin/code/github/react-native-offline/example/app.json	/^  "expo": {$/;"	function	line:2
+name	/Users/colin/code/github/react-native-offline/example/app.json	/^    "name": "react-native-offline-example",$/;"	function	line:3
+name	/Users/colin/code/github/react-native-offline/example/app.json	/^    "name": "react-native-offline-example",$/;"	string	line:3	object:expo
+slug	/Users/colin/code/github/react-native-offline/example/app.json	/^    "slug": "react-native-offline-example",$/;"	function	line:4
+slug	/Users/colin/code/github/react-native-offline/example/app.json	/^    "slug": "react-native-offline-example",$/;"	string	line:4	object:expo
+description	/Users/colin/code/github/react-native-offline/example/app.json	/^    "description": "Example application that showcases all the different modules that react-nati/;"	function	line:5
+description	/Users/colin/code/github/react-native-offline/example/app.json	/^    "description": "Example application that showcases all the different modules that react-nati/;"	string	line:5	object:expo
+privacy	/Users/colin/code/github/react-native-offline/example/app.json	/^    "privacy": "public",$/;"	function	line:6
+privacy	/Users/colin/code/github/react-native-offline/example/app.json	/^    "privacy": "public",$/;"	string	line:6	object:expo
+sdkVersion	/Users/colin/code/github/react-native-offline/example/app.json	/^    "sdkVersion": "32.0.0",$/;"	function	line:7
+sdkVersion	/Users/colin/code/github/react-native-offline/example/app.json	/^    "sdkVersion": "32.0.0",$/;"	string	line:7	object:expo
+platforms	/Users/colin/code/github/react-native-offline/example/app.json	/^    "platforms": [$/;"	function	line:8
+0	/Users/colin/code/github/react-native-offline/example/app.json	/^      "ios",$/;"	string	line:9	array:expo.platforms
+1	/Users/colin/code/github/react-native-offline/example/app.json	/^      "android"$/;"	string	line:10	array:expo.platforms
+platforms	/Users/colin/code/github/react-native-offline/example/app.json	/^    "platforms": [$/;"	array	line:8	object:expo
+version	/Users/colin/code/github/react-native-offline/example/app.json	/^    "version": "1.0.0",$/;"	function	line:12
+version	/Users/colin/code/github/react-native-offline/example/app.json	/^    "version": "1.0.0",$/;"	string	line:12	object:expo
+orientation	/Users/colin/code/github/react-native-offline/example/app.json	/^    "orientation": "portrait",$/;"	function	line:13
+orientation	/Users/colin/code/github/react-native-offline/example/app.json	/^    "orientation": "portrait",$/;"	string	line:13	object:expo
+icon	/Users/colin/code/github/react-native-offline/example/app.json	/^    "icon": ".\/assets\/images\/icon.png",$/;"	function	line:14
+icon	/Users/colin/code/github/react-native-offline/example/app.json	/^    "icon": ".\/assets\/images\/icon.png",$/;"	string	line:14	object:expo
+splash	/Users/colin/code/github/react-native-offline/example/app.json	/^    "splash": {$/;"	function	line:15
+image	/Users/colin/code/github/react-native-offline/example/app.json	/^      "image": ".\/assets\/images\/splash.png",$/;"	function	line:16
+image	/Users/colin/code/github/react-native-offline/example/app.json	/^      "image": ".\/assets\/images\/splash.png",$/;"	string	line:16	object:expo.splash
+resizeMode	/Users/colin/code/github/react-native-offline/example/app.json	/^      "resizeMode": "contain",$/;"	function	line:17
+resizeMode	/Users/colin/code/github/react-native-offline/example/app.json	/^      "resizeMode": "contain",$/;"	string	line:17	object:expo.splash
+backgroundColor	/Users/colin/code/github/react-native-offline/example/app.json	/^      "backgroundColor": "#ffffff"$/;"	function	line:18
+backgroundColor	/Users/colin/code/github/react-native-offline/example/app.json	/^      "backgroundColor": "#ffffff"$/;"	string	line:18	object:expo.splash
+splash	/Users/colin/code/github/react-native-offline/example/app.json	/^    "splash": {$/;"	object	line:15	object:expo
+updates	/Users/colin/code/github/react-native-offline/example/app.json	/^    "updates": {$/;"	function	line:20
+fallbackToCacheTimeout	/Users/colin/code/github/react-native-offline/example/app.json	/^      "fallbackToCacheTimeout": 0$/;"	function	line:21
+fallbackToCacheTimeout	/Users/colin/code/github/react-native-offline/example/app.json	/^      "fallbackToCacheTimeout": 0$/;"	number	line:21	object:expo.updates
+updates	/Users/colin/code/github/react-native-offline/example/app.json	/^    "updates": {$/;"	object	line:20	object:expo
+assetBundlePatterns	/Users/colin/code/github/react-native-offline/example/app.json	/^    "assetBundlePatterns": [$/;"	function	line:23
+0	/Users/colin/code/github/react-native-offline/example/app.json	/^      "**\/*"$/;"	string	line:24	array:expo.assetBundlePatterns
+assetBundlePatterns	/Users/colin/code/github/react-native-offline/example/app.json	/^    "assetBundlePatterns": [$/;"	array	line:23	object:expo
+ios	/Users/colin/code/github/react-native-offline/example/app.json	/^    "ios": {$/;"	function	line:26
+supportsTablet	/Users/colin/code/github/react-native-offline/example/app.json	/^      "supportsTablet": true$/;"	function	line:27
+supportsTablet	/Users/colin/code/github/react-native-offline/example/app.json	/^      "supportsTablet": true$/;"	boolean	line:27	object:expo.ios
+ios	/Users/colin/code/github/react-native-offline/example/app.json	/^    "ios": {$/;"	object	line:26	object:expo
+expo	/Users/colin/code/github/react-native-offline/example/app.json	/^  "expo": {$/;"	object	line:2
+DummyNetworkContext	/Users/colin/code/github/react-native-offline/example/DummyNetworkContext.js	/^const DummyNetworkContext = React.createContext();$/;"	constant	line:3
+tintColor	/Users/colin/code/github/react-native-offline/example/constants/Colors.js	/^const tintColor = '#2f95dc';$/;"	constant	line:1
+width	/Users/colin/code/github/react-native-offline/example/constants/Layout.js	/^const width = Dimensions.get('window').width;$/;"	constant	line:3
+height	/Users/colin/code/github/react-native-offline/example/constants/Layout.js	/^const height = Dimensions.get('window').height;$/;"	constant	line:4
+ComponentsStack	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^const ComponentsStack = createStackNavigator({$/;"	constant	line:13
+tabBarLabel	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^  tabBarLabel: 'Components',$/;"	property	line:18	class:ComponentsStack.navigationOptions
+tabBarIcon	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^  tabBarIcon: ({ focused }) => ($/;"	property	line:19	class:ComponentsStack.navigationOptions
+navigationOptions	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^ComponentsStack.navigationOptions = {$/;"	class	line:17	class:ComponentsStack
+ReduxStack	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^const ReduxStack = createStackNavigator({$/;"	constant	line:31
+tabBarLabel	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^  tabBarLabel: 'Redux',$/;"	property	line:36	class:ReduxStack.navigationOptions
+tabBarIcon	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^  tabBarIcon: ({ focused }) => ($/;"	property	line:37	class:ReduxStack.navigationOptions
+navigationOptions	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^ReduxStack.navigationOptions = {$/;"	class	line:35	class:ReduxStack
+SagasStack	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^const SagasStack = createStackNavigator({$/;"	constant	line:45
+tabBarLabel	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^  tabBarLabel: 'Sagas',$/;"	property	line:50	class:SagasStack.navigationOptions
+tabBarIcon	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^  tabBarIcon: ({ focused }) => ($/;"	property	line:51	class:SagasStack.navigationOptions
+navigationOptions	/Users/colin/code/github/react-native-offline/example/navigation/MainTabNavigator.js	/^SagasStack.navigationOptions = {$/;"	class	line:49	class:SagasStack
+store	/Users/colin/code/github/react-native-offline/example/screens/ReduxScreen.js	/^const store = createStore({ queueReleaseThrottle: 1000 });$/;"	constant	line:14
+ReduxScreen	/Users/colin/code/github/react-native-offline/example/screens/ReduxScreen.js	/^export default class ReduxScreen extends React.Component {$/;"	class	line:16
+render	/Users/colin/code/github/react-native-offline/example/screens/ReduxScreen.js	/^  render() {$/;"	function	line:21
+render	/Users/colin/code/github/react-native-offline/example/screens/ReduxScreen.js	/^  render() {$/;"	method	line:21	class:ReduxScreen	signature:()
+styles	/Users/colin/code/github/react-native-offline/example/screens/ReduxScreen.js	/^const styles = StyleSheet.create({$/;"	constant	line:57
+store	/Users/colin/code/github/react-native-offline/example/screens/SagasScreen.js	/^const store = createStore({ withSaga: true, queueReleaseThrottle: 250 });$/;"	constant	line:10
+SettingsScreen	/Users/colin/code/github/react-native-offline/example/screens/SagasScreen.js	/^export default class SettingsScreen extends React.Component {$/;"	class	line:12
+render	/Users/colin/code/github/react-native-offline/example/screens/SagasScreen.js	/^  render() {$/;"	function	line:17
+render	/Users/colin/code/github/react-native-offline/example/screens/SagasScreen.js	/^  render() {$/;"	method	line:17	class:SettingsScreen	signature:()
+styles	/Users/colin/code/github/react-native-offline/example/screens/SagasScreen.js	/^const styles = StyleSheet.create({$/;"	constant	line:54
+ComponentsScreen	/Users/colin/code/github/react-native-offline/example/screens/ComponentsScreen.js	/^export default class ComponentsScreen extends React.Component {$/;"	class	line:9
+render	/Users/colin/code/github/react-native-offline/example/screens/ComponentsScreen.js	/^  render() {$/;"	function	line:14
+render	/Users/colin/code/github/react-native-offline/example/screens/ComponentsScreen.js	/^  render() {$/;"	method	line:14	class:ComponentsScreen	signature:()
+styles	/Users/colin/code/github/react-native-offline/example/screens/ComponentsScreen.js	/^const styles = StyleSheet.create({$/;"	constant	line:76
+ReduxNetworkReader	/Users/colin/code/github/react-native-offline/example/components/ReduxNetworkReader.js	/^function ReduxNetworkReader({ isConnected }) {$/;"	function	line:6
+ReduxNetworkReader	/Users/colin/code/github/react-native-offline/example/components/ReduxNetworkReader.js	/^function ReduxNetworkReader({ isConnected }) {$/;"	function	line:6	signature:({ isConnected })
+styles	/Users/colin/code/github/react-native-offline/example/components/ReduxNetworkReader.js	/^const styles = StyleSheet.create({$/;"	constant	line:28
+TabBarIcon	/Users/colin/code/github/react-native-offline/example/components/TabBarIcon.js	/^export default class TabBarIcon extends React.Component {$/;"	class	line:6
+render	/Users/colin/code/github/react-native-offline/example/components/TabBarIcon.js	/^  render() {$/;"	function	line:7
+render	/Users/colin/code/github/react-native-offline/example/components/TabBarIcon.js	/^  render() {$/;"	method	line:7	class:TabBarIcon	signature:()
+MonoText	/Users/colin/code/github/react-native-offline/example/components/StyledText.js	/^export class MonoText extends React.Component {$/;"	class	line:4
+render	/Users/colin/code/github/react-native-offline/example/components/StyledText.js	/^  render() {$/;"	function	line:5
+render	/Users/colin/code/github/react-native-offline/example/components/StyledText.js	/^  render() {$/;"	method	line:5	class:MonoText	signature:()
+ConnectionToggler	/Users/colin/code/github/react-native-offline/example/components/ConnectionToggler.js	/^function ConnectionToggler() {$/;"	function	line:5
+ConnectionToggler	/Users/colin/code/github/react-native-offline/example/components/ConnectionToggler.js	/^function ConnectionToggler() {$/;"	function	line:5	signature:()
+OfflineQueue	/Users/colin/code/github/react-native-offline/example/components/OfflineQueue.js	/^function OfflineQueue({ queue, title }) {$/;"	function	line:5
+OfflineQueue	/Users/colin/code/github/react-native-offline/example/components/OfflineQueue.js	/^function OfflineQueue({ queue, title }) {$/;"	function	line:5	signature:({ queue, title })
+mapStateToProps	/Users/colin/code/github/react-native-offline/example/components/OfflineQueue.js	/^const mapStateToProps = ({ network }) => ({$/;"	constant	line:24
+styles	/Users/colin/code/github/react-native-offline/example/components/OfflineQueue.js	/^const styles = StyleSheet.create({$/;"	constant	line:30
+Touchable	/Users/colin/code/github/react-native-offline/example/components/ActionButtons.js	/^const Touchable = Platform.select({$/;"	constant	line:14
+showInfo	/Users/colin/code/github/react-native-offline/example/components/ActionButtons.js	/^const showInfo = actionType => () => {$/;"	constant	line:19
+message	/Users/colin/code/github/react-native-offline/example/components/ActionButtons.js	/^  const message = (() => {$/;"	constant	line:20
+switch	/Users/colin/code/github/react-native-offline/example/components/ActionButtons.js	/^    switch (actionType) {$/;"	function	line:21
+ActionButtons	/Users/colin/code/github/react-native-offline/example/components/ActionButtons.js	/^function ActionButtons({$/;"	function	line:52	signature:({ addOneAction, subOneAction, otherAction, cancelOtherAction, })
+styles	/Users/colin/code/github/react-native-offline/example/components/ActionButtons.js	/^const styles = StyleSheet.create({$/;"	constant	line:108
+Counter	/Users/colin/code/github/react-native-offline/example/components/Counter.js	/^function Counter({ counter }) {$/;"	function	line:6
+Counter	/Users/colin/code/github/react-native-offline/example/components/Counter.js	/^function Counter({ counter }) {$/;"	function	line:6	signature:({ counter })
+styles	/Users/colin/code/github/react-native-offline/example/components/Counter.js	/^const styles = StyleSheet.create({$/;"	constant	line:21
+exports	/Users/colin/code/github/react-native-offline/example/babel.config.js	/^module.exports = function(api) {$/;"	function	line:1
+exports	/Users/colin/code/github/react-native-offline/example/babel.config.js	/^module.exports = function(api) {$/;"	function	line:1	function:module	signature:(api)
+main	/Users/colin/code/github/react-native-offline/example/package.json	/^  "main": "node_modules\/expo\/AppEntry.js",$/;"	function	line:2
+main	/Users/colin/code/github/react-native-offline/example/package.json	/^  "main": "node_modules\/expo\/AppEntry.js",$/;"	string	line:2
+scripts	/Users/colin/code/github/react-native-offline/example/package.json	/^  "scripts": {$/;"	function	line:3
+start	/Users/colin/code/github/react-native-offline/example/package.json	/^    "start": "expo start",$/;"	function	line:4
+start	/Users/colin/code/github/react-native-offline/example/package.json	/^    "start": "expo start",$/;"	string	line:4	object:scripts
+android	/Users/colin/code/github/react-native-offline/example/package.json	/^    "android": "expo start --android",$/;"	function	line:5
+android	/Users/colin/code/github/react-native-offline/example/package.json	/^    "android": "expo start --android",$/;"	string	line:5	object:scripts
+ios	/Users/colin/code/github/react-native-offline/example/package.json	/^    "ios": "expo start --ios",$/;"	function	line:6
+ios	/Users/colin/code/github/react-native-offline/example/package.json	/^    "ios": "expo start --ios",$/;"	string	line:6	object:scripts
+eject	/Users/colin/code/github/react-native-offline/example/package.json	/^    "eject": "expo eject",$/;"	function	line:7
+eject	/Users/colin/code/github/react-native-offline/example/package.json	/^    "eject": "expo eject",$/;"	string	line:7	object:scripts
+test	/Users/colin/code/github/react-native-offline/example/package.json	/^    "test": "node .\/node_modules\/jest\/bin\/jest.js --watchAll"$/;"	function	line:8
+test	/Users/colin/code/github/react-native-offline/example/package.json	/^    "test": "node .\/node_modules\/jest\/bin\/jest.js --watchAll"$/;"	string	line:8	object:scripts
+scripts	/Users/colin/code/github/react-native-offline/example/package.json	/^  "scripts": {$/;"	object	line:3
+jest	/Users/colin/code/github/react-native-offline/example/package.json	/^  "jest": {$/;"	function	line:10
+preset	/Users/colin/code/github/react-native-offline/example/package.json	/^    "preset": "jest-expo"$/;"	function	line:11
+preset	/Users/colin/code/github/react-native-offline/example/package.json	/^    "preset": "jest-expo"$/;"	string	line:11	object:jest
+jest	/Users/colin/code/github/react-native-offline/example/package.json	/^  "jest": {$/;"	object	line:10
+dependencies	/Users/colin/code/github/react-native-offline/example/package.json	/^  "dependencies": {$/;"	function	line:13
+@expo/samples	/Users/colin/code/github/react-native-offline/example/package.json	/^    "@expo\/samples": "2.1.1",$/;"	function	line:14
+@expo/samples	/Users/colin/code/github/react-native-offline/example/package.json	/^    "@expo\/samples": "2.1.1",$/;"	string	line:14	object:dependencies
+expo	/Users/colin/code/github/react-native-offline/example/package.json	/^    "expo": "^32.0.0",$/;"	function	line:15
+expo	/Users/colin/code/github/react-native-offline/example/package.json	/^    "expo": "^32.0.0",$/;"	string	line:15	object:dependencies
+react	/Users/colin/code/github/react-native-offline/example/package.json	/^    "react": "16.5.0",$/;"	function	line:16
+react	/Users/colin/code/github/react-native-offline/example/package.json	/^    "react": "16.5.0",$/;"	string	line:16	object:dependencies
+react-native	/Users/colin/code/github/react-native-offline/example/package.json	/^    "react-native": "https:\/\/github.com\/expo\/react-native\/archive\/sdk-32.0.0.tar.gz",$/;"	function	line:17
+react-native	/Users/colin/code/github/react-native-offline/example/package.json	/^    "react-native": "https:\/\/github.com\/expo\/react-native\/archive\/sdk-32.0.0.tar.gz",$/;"	string	line:17	object:dependencies
+react-native-offline	/Users/colin/code/github/react-native-offline/example/package.json	/^    "react-native-offline": "4.3.0",$/;"	function	line:18
+react-native-offline	/Users/colin/code/github/react-native-offline/example/package.json	/^    "react-native-offline": "4.3.0",$/;"	string	line:18	object:dependencies
+react-navigation	/Users/colin/code/github/react-native-offline/example/package.json	/^    "react-navigation": "^3.0.9",$/;"	function	line:19
+react-navigation	/Users/colin/code/github/react-native-offline/example/package.json	/^    "react-navigation": "^3.0.9",$/;"	string	line:19	object:dependencies
+redux	/Users/colin/code/github/react-native-offline/example/package.json	/^    "redux": "^4.0.1",$/;"	function	line:20
+redux	/Users/colin/code/github/react-native-offline/example/package.json	/^    "redux": "^4.0.1",$/;"	string	line:20	object:dependencies
+redux-saga	/Users/colin/code/github/react-native-offline/example/package.json	/^    "redux-saga": "0.16.2"$/;"	function	line:21
+redux-saga	/Users/colin/code/github/react-native-offline/example/package.json	/^    "redux-saga": "0.16.2"$/;"	string	line:21	object:dependencies
+dependencies	/Users/colin/code/github/react-native-offline/example/package.json	/^  "dependencies": {$/;"	object	line:13
+devDependencies	/Users/colin/code/github/react-native-offline/example/package.json	/^  "devDependencies": {$/;"	function	line:23
+babel-preset-expo	/Users/colin/code/github/react-native-offline/example/package.json	/^    "babel-preset-expo": "^5.0.0",$/;"	function	line:24
+babel-preset-expo	/Users/colin/code/github/react-native-offline/example/package.json	/^    "babel-preset-expo": "^5.0.0",$/;"	string	line:24	object:devDependencies
+jest-expo	/Users/colin/code/github/react-native-offline/example/package.json	/^    "jest-expo": "^32.0.0"$/;"	function	line:25
+jest-expo	/Users/colin/code/github/react-native-offline/example/package.json	/^    "jest-expo": "^32.0.0"$/;"	string	line:25	object:devDependencies
+devDependencies	/Users/colin/code/github/react-native-offline/example/package.json	/^  "devDependencies": {$/;"	object	line:23
+private	/Users/colin/code/github/react-native-offline/example/package.json	/^  "private": true$/;"	function	line:27
+private	/Users/colin/code/github/react-native-offline/example/package.json	/^  "private": true$/;"	boolean	line:27
+Example app	/Users/colin/code/github/react-native-offline/example/README.md	/^## Example app$/;"	function	line:1
+Runing it locally	/Users/colin/code/github/react-native-offline/example/README.md	/^### Runing it locally$/;"	function	line:5
+Snapshots	/Users/colin/code/github/react-native-offline/example/README.md	/^### Snapshots$/;"	function	line:14
+Example app	/Users/colin/code/github/react-native-offline/example/README.md	/^## Example app$/;"	section	line:1
+Runing it locally	/Users/colin/code/github/react-native-offline/example/README.md	/^### Runing it locally$/;"	subsection	line:5
+Snapshots	/Users/colin/code/github/react-native-offline/example/README.md	/^### Snapshots$/;"	subsection	line:14
+initialCount	/Users/colin/code/github/react-native-offline/example/redux/reducer.js	/^const initialCount = 0;$/;"	constant	line:1
+countReducer	/Users/colin/code/github/react-native-offline/example/redux/reducer.js	/^const countReducer = (state = initialCount, action) => {$/;"	constant	line:3
+getUUID	/Users/colin/code/github/react-native-offline/example/redux/actions.js	/^const getUUID = () => new Date().getUTCMilliseconds();$/;"	constant	line:1
+addOne	/Users/colin/code/github/react-native-offline/example/redux/actions.js	/^export const addOne = () => ({$/;"	constant	line:3
+subOne	/Users/colin/code/github/react-native-offline/example/redux/actions.js	/^export const subOne = () => ({$/;"	constant	line:11
+other	/Users/colin/code/github/react-native-offline/example/redux/actions.js	/^export const other = () => ({$/;"	constant	line:19
+cancelOther	/Users/colin/code/github/react-native-offline/example/redux/actions.js	/^export const cancelOther = () => ({$/;"	constant	line:27
+doSideEffect	/Users/colin/code/github/react-native-offline/example/redux/sagas.js	/^function* doSideEffect({ type }) {$/;"	generator	line:5	signature:({ type })
+rootSaga	/Users/colin/code/github/react-native-offline/example/redux/sagas.js	/^export default function* rootSaga() {$/;"	generator	line:13	signature:()
+createReduxStore	/Users/colin/code/github/react-native-offline/example/redux/createStore.js	/^export default function createReduxStore({$/;"	function	line:10	signature:({ withSaga = false, queueReleaseThrottle = 1000, } = {})
+Contributing Guide	/Users/colin/code/github/react-native-offline/CONTRIBUTING.md	/^# Contributing Guide$/;"	function	line:1
+Contributing Guide	/Users/colin/code/github/react-native-offline/CONTRIBUTING.md	/^# Contributing Guide$/;"	chapter	line:1
+name	/Users/colin/code/github/react-native-offline/package.json	/^  "name": "react-native-offline",$/;"	function	line:2
+name	/Users/colin/code/github/react-native-offline/package.json	/^  "name": "react-native-offline",$/;"	string	line:2
+version	/Users/colin/code/github/react-native-offline/package.json	/^  "version": "4.3.1",$/;"	function	line:3
+version	/Users/colin/code/github/react-native-offline/package.json	/^  "version": "4.3.1",$/;"	string	line:3
+description	/Users/colin/code/github/react-native-offline/package.json	/^  "description": "Handy toolbelt to deal with offline mode in React Native applications. Cross-p/;"	function	line:4
+description	/Users/colin/code/github/react-native-offline/package.json	/^  "description": "Handy toolbelt to deal with offline mode in React Native applications. Cross-p/;"	string	line:4
+main	/Users/colin/code/github/react-native-offline/package.json	/^  "main": ".\/src\/index.js",$/;"	function	line:5
+main	/Users/colin/code/github/react-native-offline/package.json	/^  "main": ".\/src\/index.js",$/;"	string	line:5
+author	/Users/colin/code/github/react-native-offline/package.json	/^  "author": "Raul Gomez Acuña <raulgdeveloper@gmail.com> (https:\/\/github.com\/rgommezz)",$/;"	function	line:6
+author	/Users/colin/code/github/react-native-offline/package.json	/^  "author": "Raul Gomez Acuña <raulgdeveloper@gmail.com> (https:\/\/github.com\/rgommezz)",$/;"	string	line:6
+license	/Users/colin/code/github/react-native-offline/package.json	/^  "license": "MIT",$/;"	function	line:7
+license	/Users/colin/code/github/react-native-offline/package.json	/^  "license": "MIT",$/;"	string	line:7
+scripts	/Users/colin/code/github/react-native-offline/package.json	/^  "scripts": {$/;"	function	line:8
+lint	/Users/colin/code/github/react-native-offline/package.json	/^    "lint": "eslint src",$/;"	function	line:9
+lint	/Users/colin/code/github/react-native-offline/package.json	/^    "lint": "eslint src",$/;"	string	line:9	object:scripts
+test	/Users/colin/code/github/react-native-offline/package.json	/^    "test": "jest test",$/;"	function	line:10
+test	/Users/colin/code/github/react-native-offline/package.json	/^    "test": "jest test",$/;"	string	line:10	object:scripts
+flow	/Users/colin/code/github/react-native-offline/package.json	/^    "flow": "flow src",$/;"	function	line:11
+flow	/Users/colin/code/github/react-native-offline/package.json	/^    "flow": "flow src",$/;"	string	line:11	object:scripts
+format	/Users/colin/code/github/react-native-offline/package.json	/^    "format": "eslint --fix js\/**\/",$/;"	function	line:12
+format	/Users/colin/code/github/react-native-offline/package.json	/^    "format": "eslint --fix js\/**\/",$/;"	string	line:12	object:scripts
+prettier	/Users/colin/code/github/react-native-offline/package.json	/^    "prettier": "prettier --single-quote --trailing-comma all --write \\"src\/**\/*.js\\"",$/;"	function	line:13
+prettier	/Users/colin/code/github/react-native-offline/package.json	/^    "prettier": "prettier --single-quote --trailing-comma all --write \\"src\/**\/*.js\\"",$/;"	string	line:13	object:scripts
+test:coverage	/Users/colin/code/github/react-native-offline/package.json	/^    "test:coverage": "node --harmony node_modules\/.bin\/jest --coverage && cat .\/coverage\/lco/;"	function	line:14
+test:coverage	/Users/colin/code/github/react-native-offline/package.json	/^    "test:coverage": "node --harmony node_modules\/.bin\/jest --coverage && cat .\/coverage\/lco/;"	string	line:14	object:scripts
+precommit	/Users/colin/code/github/react-native-offline/package.json	/^    "precommit": "yarn run lint",$/;"	function	line:15
+precommit	/Users/colin/code/github/react-native-offline/package.json	/^    "precommit": "yarn run lint",$/;"	string	line:15	object:scripts
+contributors:add	/Users/colin/code/github/react-native-offline/package.json	/^    "contributors:add": "all-contributors add",$/;"	function	line:16
+contributors:add	/Users/colin/code/github/react-native-offline/package.json	/^    "contributors:add": "all-contributors add",$/;"	string	line:16	object:scripts
+contributors:generate	/Users/colin/code/github/react-native-offline/package.json	/^    "contributors:generate": "all-contributors generate"$/;"	function	line:17
+contributors:generate	/Users/colin/code/github/react-native-offline/package.json	/^    "contributors:generate": "all-contributors generate"$/;"	string	line:17	object:scripts
+scripts	/Users/colin/code/github/react-native-offline/package.json	/^  "scripts": {$/;"	object	line:8
+repository	/Users/colin/code/github/react-native-offline/package.json	/^  "repository": {$/;"	function	line:19
+type	/Users/colin/code/github/react-native-offline/package.json	/^    "type": "git",$/;"	function	line:20
+type	/Users/colin/code/github/react-native-offline/package.json	/^    "type": "git",$/;"	string	line:20	object:repository
+url	/Users/colin/code/github/react-native-offline/package.json	/^    "url": "git+https:\/\/github.com\/rgommezz\/react-native-offline.git"$/;"	function	line:21
+url	/Users/colin/code/github/react-native-offline/package.json	/^    "url": "git+https:\/\/github.com\/rgommezz\/react-native-offline.git"$/;"	string	line:21	object:repository
+repository	/Users/colin/code/github/react-native-offline/package.json	/^  "repository": {$/;"	object	line:19
+keywords	/Users/colin/code/github/react-native-offline/package.json	/^  "keywords": [$/;"	function	line:23
+0	/Users/colin/code/github/react-native-offline/package.json	/^    "react-native",$/;"	string	line:24	array:keywords
+1	/Users/colin/code/github/react-native-offline/package.json	/^    "react",$/;"	string	line:25	array:keywords
+2	/Users/colin/code/github/react-native-offline/package.json	/^    "offline",$/;"	string	line:26	array:keywords
+3	/Users/colin/code/github/react-native-offline/package.json	/^    "offline-first",$/;"	string	line:27	array:keywords
+4	/Users/colin/code/github/react-native-offline/package.json	/^    "redux"$/;"	string	line:28	array:keywords
+keywords	/Users/colin/code/github/react-native-offline/package.json	/^  "keywords": [$/;"	array	line:23
+files	/Users/colin/code/github/react-native-offline/package.json	/^  "files": [$/;"	function	line:30
+0	/Users/colin/code/github/react-native-offline/package.json	/^    "src"$/;"	string	line:31	array:files
+files	/Users/colin/code/github/react-native-offline/package.json	/^  "files": [$/;"	array	line:30
+bugs	/Users/colin/code/github/react-native-offline/package.json	/^  "bugs": {$/;"	function	line:33
+url	/Users/colin/code/github/react-native-offline/package.json	/^    "url": "https:\/\/github.com\/rgommezz\/react-native-offline\/issues"$/;"	function	line:34
+url	/Users/colin/code/github/react-native-offline/package.json	/^    "url": "https:\/\/github.com\/rgommezz\/react-native-offline\/issues"$/;"	string	line:34	object:bugs
+bugs	/Users/colin/code/github/react-native-offline/package.json	/^  "bugs": {$/;"	object	line:33
+homepage	/Users/colin/code/github/react-native-offline/package.json	/^  "homepage": "https:\/\/github.com\/rgommezz\/react-native-offline#readme",$/;"	function	line:36
+homepage	/Users/colin/code/github/react-native-offline/package.json	/^  "homepage": "https:\/\/github.com\/rgommezz\/react-native-offline#readme",$/;"	string	line:36
+devDependencies	/Users/colin/code/github/react-native-offline/package.json	/^  "devDependencies": {$/;"	function	line:37
+all-contributors-cli	/Users/colin/code/github/react-native-offline/package.json	/^    "all-contributors-cli": "^5.4.0",$/;"	function	line:38
+all-contributors-cli	/Users/colin/code/github/react-native-offline/package.json	/^    "all-contributors-cli": "^5.4.0",$/;"	string	line:38	object:devDependencies
+babel-eslint	/Users/colin/code/github/react-native-offline/package.json	/^    "babel-eslint": "^10.0.1",$/;"	function	line:39
+babel-eslint	/Users/colin/code/github/react-native-offline/package.json	/^    "babel-eslint": "^10.0.1",$/;"	string	line:39	object:devDependencies
+babel-jest	/Users/colin/code/github/react-native-offline/package.json	/^    "babel-jest": "^23.6.0",$/;"	function	line:40
+babel-jest	/Users/colin/code/github/react-native-offline/package.json	/^    "babel-jest": "^23.6.0",$/;"	string	line:40	object:devDependencies
+babel-plugin-transform-flow-strip-types	/Users/colin/code/github/react-native-offline/package.json	/^    "babel-plugin-transform-flow-strip-types": "^6.22.0",$/;"	function	line:41
+babel-plugin-transform-flow-strip-types	/Users/colin/code/github/react-native-offline/package.json	/^    "babel-plugin-transform-flow-strip-types": "^6.22.0",$/;"	string	line:41	object:devDependencies
+babel-preset-react-native	/Users/colin/code/github/react-native-offline/package.json	/^    "babel-preset-react-native": "^4.0.1",$/;"	function	line:42
+babel-preset-react-native	/Users/colin/code/github/react-native-offline/package.json	/^    "babel-preset-react-native": "^4.0.1",$/;"	string	line:42	object:devDependencies
+coveralls	/Users/colin/code/github/react-native-offline/package.json	/^    "coveralls": "^2.13.1",$/;"	function	line:43
+coveralls	/Users/colin/code/github/react-native-offline/package.json	/^    "coveralls": "^2.13.1",$/;"	string	line:43	object:devDependencies
+enzyme	/Users/colin/code/github/react-native-offline/package.json	/^    "enzyme": "^3.8.0",$/;"	function	line:44
+enzyme	/Users/colin/code/github/react-native-offline/package.json	/^    "enzyme": "^3.8.0",$/;"	string	line:44	object:devDependencies
+enzyme-adapter-react-16	/Users/colin/code/github/react-native-offline/package.json	/^    "enzyme-adapter-react-16": "^1.7.1",$/;"	function	line:45
+enzyme-adapter-react-16	/Users/colin/code/github/react-native-offline/package.json	/^    "enzyme-adapter-react-16": "^1.7.1",$/;"	string	line:45	object:devDependencies
+eslint	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint": "^5.11.0",$/;"	function	line:46
+eslint	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint": "^5.11.0",$/;"	string	line:46	object:devDependencies
+eslint-config-airbnb	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-config-airbnb": "^17.1.0",$/;"	function	line:47
+eslint-config-airbnb	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-config-airbnb": "^17.1.0",$/;"	string	line:47	object:devDependencies
+eslint-config-prettier	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-config-prettier": "^3.3.0",$/;"	function	line:48
+eslint-config-prettier	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-config-prettier": "^3.3.0",$/;"	string	line:48	object:devDependencies
+eslint-plugin-flowtype	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-plugin-flowtype": "^3.2.0",$/;"	function	line:49
+eslint-plugin-flowtype	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-plugin-flowtype": "^3.2.0",$/;"	string	line:49	object:devDependencies
+eslint-plugin-import	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-plugin-import": "^2.14.0",$/;"	function	line:50
+eslint-plugin-import	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-plugin-import": "^2.14.0",$/;"	string	line:50	object:devDependencies
+eslint-plugin-jsx-a11y	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-plugin-jsx-a11y": "^6.1.2",$/;"	function	line:51
+eslint-plugin-jsx-a11y	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-plugin-jsx-a11y": "^6.1.2",$/;"	string	line:51	object:devDependencies
+eslint-plugin-prettier	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-plugin-prettier": "^3.0.0",$/;"	function	line:52
+eslint-plugin-prettier	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-plugin-prettier": "^3.0.0",$/;"	string	line:52	object:devDependencies
+eslint-plugin-react	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-plugin-react": "^7.11.1",$/;"	function	line:53
+eslint-plugin-react	/Users/colin/code/github/react-native-offline/package.json	/^    "eslint-plugin-react": "^7.11.1",$/;"	string	line:53	object:devDependencies
+flow-bin	/Users/colin/code/github/react-native-offline/package.json	/^    "flow-bin": "^0.89.0",$/;"	function	line:54
+flow-bin	/Users/colin/code/github/react-native-offline/package.json	/^    "flow-bin": "^0.89.0",$/;"	string	line:54	object:devDependencies
+husky	/Users/colin/code/github/react-native-offline/package.json	/^    "husky": "^0.14.3",$/;"	function	line:55
+husky	/Users/colin/code/github/react-native-offline/package.json	/^    "husky": "^0.14.3",$/;"	string	line:55	object:devDependencies
+jest	/Users/colin/code/github/react-native-offline/package.json	/^    "jest": "^23.6.0",$/;"	function	line:56
+jest	/Users/colin/code/github/react-native-offline/package.json	/^    "jest": "^23.6.0",$/;"	string	line:56	object:devDependencies
+jest-enzyme	/Users/colin/code/github/react-native-offline/package.json	/^    "jest-enzyme": "^7.0.1",$/;"	function	line:57
+jest-enzyme	/Users/colin/code/github/react-native-offline/package.json	/^    "jest-enzyme": "^7.0.1",$/;"	string	line:57	object:devDependencies
+jsdom	/Users/colin/code/github/react-native-offline/package.json	/^    "jsdom": "^13.1.0",$/;"	function	line:58
+jsdom	/Users/colin/code/github/react-native-offline/package.json	/^    "jsdom": "^13.1.0",$/;"	string	line:58	object:devDependencies
+prettier	/Users/colin/code/github/react-native-offline/package.json	/^    "prettier": "^1.15.3",$/;"	function	line:59
+prettier	/Users/colin/code/github/react-native-offline/package.json	/^    "prettier": "^1.15.3",$/;"	string	line:59	object:devDependencies
+prop-types	/Users/colin/code/github/react-native-offline/package.json	/^    "prop-types": "^15.6.2",$/;"	function	line:60
+prop-types	/Users/colin/code/github/react-native-offline/package.json	/^    "prop-types": "^15.6.2",$/;"	string	line:60	object:devDependencies
+react	/Users/colin/code/github/react-native-offline/package.json	/^    "react": "^16.6.3",$/;"	function	line:61
+react	/Users/colin/code/github/react-native-offline/package.json	/^    "react": "^16.6.3",$/;"	string	line:61	object:devDependencies
+react-dom	/Users/colin/code/github/react-native-offline/package.json	/^    "react-dom": "^16.6.3",$/;"	function	line:62
+react-dom	/Users/colin/code/github/react-native-offline/package.json	/^    "react-dom": "^16.6.3",$/;"	string	line:62	object:devDependencies
+react-native	/Users/colin/code/github/react-native-offline/package.json	/^    "react-native": "^0.57.8",$/;"	function	line:63
+react-native	/Users/colin/code/github/react-native-offline/package.json	/^    "react-native": "^0.57.8",$/;"	string	line:63	object:devDependencies
+react-native-testing-library	/Users/colin/code/github/react-native-offline/package.json	/^    "react-native-testing-library": "^1.5.0",$/;"	function	line:64
+react-native-testing-library	/Users/colin/code/github/react-native-offline/package.json	/^    "react-native-testing-library": "^1.5.0",$/;"	string	line:64	object:devDependencies
+react-test-renderer	/Users/colin/code/github/react-native-offline/package.json	/^    "react-test-renderer": "^16.6.3",$/;"	function	line:65
+react-test-renderer	/Users/colin/code/github/react-native-offline/package.json	/^    "react-test-renderer": "^16.6.3",$/;"	string	line:65	object:devDependencies
+redux	/Users/colin/code/github/react-native-offline/package.json	/^    "redux": "^4.0.1",$/;"	function	line:66
+redux	/Users/colin/code/github/react-native-offline/package.json	/^    "redux": "^4.0.1",$/;"	string	line:66	object:devDependencies
+redux-mock-store	/Users/colin/code/github/react-native-offline/package.json	/^    "redux-mock-store": "^1.5.3",$/;"	function	line:67
+redux-mock-store	/Users/colin/code/github/react-native-offline/package.json	/^    "redux-mock-store": "^1.5.3",$/;"	string	line:67	object:devDependencies
+redux-saga-test-plan	/Users/colin/code/github/react-native-offline/package.json	/^    "redux-saga-test-plan": "4.0.0-beta.2",$/;"	function	line:68
+redux-saga-test-plan	/Users/colin/code/github/react-native-offline/package.json	/^    "redux-saga-test-plan": "4.0.0-beta.2",$/;"	string	line:68	object:devDependencies
+redux-thunk	/Users/colin/code/github/react-native-offline/package.json	/^    "redux-thunk": "^2.3.0"$/;"	function	line:69
+redux-thunk	/Users/colin/code/github/react-native-offline/package.json	/^    "redux-thunk": "^2.3.0"$/;"	string	line:69	object:devDependencies
+devDependencies	/Users/colin/code/github/react-native-offline/package.json	/^  "devDependencies": {$/;"	object	line:37
+dependencies	/Users/colin/code/github/react-native-offline/package.json	/^  "dependencies": {$/;"	function	line:71
+lodash	/Users/colin/code/github/react-native-offline/package.json	/^    "lodash": "^4.17.11",$/;"	function	line:72
+lodash	/Users/colin/code/github/react-native-offline/package.json	/^    "lodash": "^4.17.11",$/;"	string	line:72	object:dependencies
+react-redux	/Users/colin/code/github/react-native-offline/package.json	/^    "react-redux": "^6.0.0",$/;"	function	line:73
+react-redux	/Users/colin/code/github/react-native-offline/package.json	/^    "react-redux": "^6.0.0",$/;"	string	line:73	object:dependencies
+redux	/Users/colin/code/github/react-native-offline/package.json	/^    "redux": "4.x",$/;"	function	line:74
+redux	/Users/colin/code/github/react-native-offline/package.json	/^    "redux": "4.x",$/;"	string	line:74	object:dependencies
+redux-saga	/Users/colin/code/github/react-native-offline/package.json	/^    "redux-saga": "^1.0.2"$/;"	function	line:75
+redux-saga	/Users/colin/code/github/react-native-offline/package.json	/^    "redux-saga": "^1.0.2"$/;"	string	line:75	object:dependencies
+dependencies	/Users/colin/code/github/react-native-offline/package.json	/^  "dependencies": {$/;"	object	line:71
+jest	/Users/colin/code/github/react-native-offline/package.json	/^  "jest": {$/;"	function	line:77
+collectCoverage	/Users/colin/code/github/react-native-offline/package.json	/^    "collectCoverage": true,$/;"	function	line:78
+collectCoverage	/Users/colin/code/github/react-native-offline/package.json	/^    "collectCoverage": true,$/;"	boolean	line:78	object:jest
+preset	/Users/colin/code/github/react-native-offline/package.json	/^    "preset": "react-native",$/;"	function	line:79
+preset	/Users/colin/code/github/react-native-offline/package.json	/^    "preset": "react-native",$/;"	string	line:79	object:jest
+setupTestFrameworkScriptFile	/Users/colin/code/github/react-native-offline/package.json	/^    "setupTestFrameworkScriptFile": "<rootDir>\/test\/setupTestEnv.js",$/;"	function	line:80
+setupTestFrameworkScriptFile	/Users/colin/code/github/react-native-offline/package.json	/^    "setupTestFrameworkScriptFile": "<rootDir>\/test\/setupTestEnv.js",$/;"	string	line:80	object:jest
+transform	/Users/colin/code/github/react-native-offline/package.json	/^    "transform": {$/;"	function	line:81
+^.+\\\\.jsx?$	/Users/colin/code/github/react-native-offline/package.json	/^      "^.+\\\\.jsx?$": "babel-jest"$/;"	function	line:82
+^.+\\\\.jsx?$	/Users/colin/code/github/react-native-offline/package.json	/^      "^.+\\\\.jsx?$": "babel-jest"$/;"	string	line:82	object:jest.transform
+transform	/Users/colin/code/github/react-native-offline/package.json	/^    "transform": {$/;"	object	line:81	object:jest
+modulePathIgnorePatterns	/Users/colin/code/github/react-native-offline/package.json	/^    "modulePathIgnorePatterns": [$/;"	function	line:84
+0	/Users/colin/code/github/react-native-offline/package.json	/^      "<rootDir>\/example\/"$/;"	string	line:85	array:jest.modulePathIgnorePatterns
+modulePathIgnorePatterns	/Users/colin/code/github/react-native-offline/package.json	/^    "modulePathIgnorePatterns": [$/;"	array	line:84	object:jest
+jest	/Users/colin/code/github/react-native-offline/package.json	/^  "jest": {$/;"	object	line:77
+react-native-offline	/Users/colin/code/github/react-native-offline/README.md	/^# react-native-offline$/;"	function	line:1
+Important (Please read)	/Users/colin/code/github/react-native-offline/README.md	/^## Important (Please read)$/;"	function	line:8
+Example app	/Users/colin/code/github/react-native-offline/README.md	/^## Example app$/;"	function	line:11
+Contents	/Users/colin/code/github/react-native-offline/README.md	/^## Contents$/;"	function	line:14
+Motivation	/Users/colin/code/github/react-native-offline/README.md	/^## Motivation$/;"	function	line:44
+Features	/Users/colin/code/github/react-native-offline/README.md	/^## Features$/;"	function	line:51
+Contributions	/Users/colin/code/github/react-native-offline/README.md	/^## Contributions$/;"	function	line:62
+Sponsors	/Users/colin/code/github/react-native-offline/README.md	/^## Sponsors$/;"	function	line:65
+Installation	/Users/colin/code/github/react-native-offline/README.md	/^## Installation$/;"	function	line:74
+Android	/Users/colin/code/github/react-native-offline/README.md	/^#### Android$/;"	function	line:80
+API	/Users/colin/code/github/react-native-offline/README.md	/^## API$/;"	function	line:85
+Component Utilities	/Users/colin/code/github/react-native-offline/README.md	/^### Component Utilities$/;"	function	line:87
+`NetworkProvider`	/Users/colin/code/github/react-native-offline/README.md	/^#### `NetworkProvider`$/;"	function	line:90
+Config	/Users/colin/code/github/react-native-offline/README.md	/^##### Config$/;"	function	line:107
+Usage	/Users/colin/code/github/react-native-offline/README.md	/^##### Usage$/;"	function	line:124
+`NetworkConsumer`	/Users/colin/code/github/react-native-offline/README.md	/^#### `NetworkConsumer`$/;"	function	line:140
+Props	/Users/colin/code/github/react-native-offline/README.md	/^##### Props$/;"	function	line:143
+Usage	/Users/colin/code/github/react-native-offline/README.md	/^##### Usage$/;"	function	line:154
+Integration with Redux	/Users/colin/code/github/react-native-offline/README.md	/^## Integration with Redux$/;"	function	line:176
+Network reducer	/Users/colin/code/github/react-native-offline/README.md	/^### Network reducer$/;"	function	line:179
+State	/Users/colin/code/github/react-native-offline/README.md	/^#### State$/;"	function	line:182
+Usage	/Users/colin/code/github/react-native-offline/README.md	/^#### Usage$/;"	function	line:190
+1.- Give the network reducer to Redux	/Users/colin/code/github/react-native-offline/README.md	/^##### 1.- Give the network reducer to Redux$/;"	function	line:192
+2.- Here you have 2 options:	/Users/colin/code/github/react-native-offline/README.md	/^##### 2.- Here you have 2 options:$/;"	function	line:207
+`ReduxNetworkProvider`	/Users/colin/code/github/react-native-offline/README.md	/^##### `ReduxNetworkProvider`$/;"	function	line:209
+`networkSaga`	/Users/colin/code/github/react-native-offline/README.md	/^##### `networkSaga`$/;"	function	line:235
+3.- Access your network state in your components using `mapStateToProps()`, as `state.network.isConnected`.	/Users/colin/code/github/react-native-offline/README.md	/^##### 3.- Access your network state in your components using `mapStateToProps()`, as `state.netw/;"	function	line:254
+`createNetworkMiddleware()`	/Users/colin/code/github/react-native-offline/README.md	/^#### `createNetworkMiddleware()`$/;"	function	line:264
+PO Config	/Users/colin/code/github/react-native-offline/README.md	/^##### PO Config$/;"	function	line:277
+Thunks Config	/Users/colin/code/github/react-native-offline/README.md	/^##### Thunks Config$/;"	function	line:287
+Usage	/Users/colin/code/github/react-native-offline/README.md	/^##### Usage$/;"	function	line:313
+Offline Queue	/Users/colin/code/github/react-native-offline/README.md	/^### Offline Queue$/;"	function	line:366
+Plain Objects	/Users/colin/code/github/react-native-offline/README.md	/^#### Plain Objects$/;"	function	line:372
+Examples	/Users/colin/code/github/react-native-offline/README.md	/^##### Examples$/;"	function	line:386
+Thunks	/Users/colin/code/github/react-native-offline/README.md	/^#### Thunks$/;"	function	line:416
+Other utilities	/Users/colin/code/github/react-native-offline/README.md	/^### Other utilities$/;"	function	line:432
+`checkInternetConnection()`	/Users/colin/code/github/react-native-offline/README.md	/^#### `checkInternetConnection()`$/;"	function	line:434
+Example	/Users/colin/code/github/react-native-offline/README.md	/^##### Example$/;"	function	line:446
+Miscellanea	/Users/colin/code/github/react-native-offline/README.md	/^## Miscellanea$/;"	function	line:462
+FAQ	/Users/colin/code/github/react-native-offline/README.md	/^### FAQ$/;"	function	line:464
+How to test offline behavior while actually being online	/Users/colin/code/github/react-native-offline/README.md	/^#### How to test offline behavior while actually being online$/;"	function	line:466
+How to orchestrate Redux to dispatch `CONNECTION_CHANGE` as the first action when the app starts up	/Users/colin/code/github/react-native-offline/README.md	/^#### How to orchestrate Redux to dispatch `CONNECTION_CHANGE` as the first action when the app s/;"	function	line:471
+How to intercept and queue actions when the server responds with client (4xx) or server (5xx) errors	/Users/colin/code/github/react-native-offline/README.md	/^#### How to intercept and queue actions when the server responds with client (4xx) or server (5x/;"	function	line:539
+How to persist and rehydrate thunks in the offline queue with Redux Persist	/Users/colin/code/github/react-native-offline/README.md	/^#### How to persist and rehydrate thunks in the offline queue with Redux Persist$/;"	function	line:561
+Using redux-saga 1.0.0-beta.x	/Users/colin/code/github/react-native-offline/README.md	/^#### Using redux-saga 1.0.0-beta.x$/;"	function	line:653
+Inspiration	/Users/colin/code/github/react-native-offline/README.md	/^### Inspiration$/;"	function	line:662
+License	/Users/colin/code/github/react-native-offline/README.md	/^### License$/;"	function	line:665
+Contributors	/Users/colin/code/github/react-native-offline/README.md	/^## Contributors$/;"	function	line:668
+react-native-offline	/Users/colin/code/github/react-native-offline/README.md	/^# react-native-offline$/;"	chapter	line:1
+Important (Please read)	/Users/colin/code/github/react-native-offline/README.md	/^## Important (Please read)$/;"	section	line:8
+Example app	/Users/colin/code/github/react-native-offline/README.md	/^## Example app$/;"	section	line:11
+Contents	/Users/colin/code/github/react-native-offline/README.md	/^## Contents$/;"	section	line:14
+Motivation	/Users/colin/code/github/react-native-offline/README.md	/^## Motivation$/;"	section	line:44
+Features	/Users/colin/code/github/react-native-offline/README.md	/^## Features$/;"	section	line:51
+Contributions	/Users/colin/code/github/react-native-offline/README.md	/^## Contributions$/;"	section	line:62
+Sponsors	/Users/colin/code/github/react-native-offline/README.md	/^## Sponsors$/;"	section	line:65
+Installation	/Users/colin/code/github/react-native-offline/README.md	/^## Installation$/;"	section	line:74
+Android	/Users/colin/code/github/react-native-offline/README.md	/^#### Android$/;"	subsubsection	line:80
+API	/Users/colin/code/github/react-native-offline/README.md	/^## API$/;"	section	line:85
+Component Utilities	/Users/colin/code/github/react-native-offline/README.md	/^### Component Utilities$/;"	subsection	line:87
+`NetworkProvider`	/Users/colin/code/github/react-native-offline/README.md	/^#### `NetworkProvider`$/;"	subsubsection	line:90
+Config	/Users/colin/code/github/react-native-offline/README.md	/^##### Config$/;"	l4subsection	line:107
+Usage	/Users/colin/code/github/react-native-offline/README.md	/^##### Usage$/;"	l4subsection	line:124
+`NetworkConsumer`	/Users/colin/code/github/react-native-offline/README.md	/^#### `NetworkConsumer`$/;"	subsubsection	line:140
+Props	/Users/colin/code/github/react-native-offline/README.md	/^##### Props$/;"	l4subsection	line:143
+Usage	/Users/colin/code/github/react-native-offline/README.md	/^##### Usage$/;"	l4subsection	line:154
+Integration with Redux	/Users/colin/code/github/react-native-offline/README.md	/^## Integration with Redux$/;"	section	line:176
+Network reducer	/Users/colin/code/github/react-native-offline/README.md	/^### Network reducer$/;"	subsection	line:179
+State	/Users/colin/code/github/react-native-offline/README.md	/^#### State$/;"	subsubsection	line:182
+Usage	/Users/colin/code/github/react-native-offline/README.md	/^#### Usage$/;"	subsubsection	line:190
+1.- Give the network reducer to Redux	/Users/colin/code/github/react-native-offline/README.md	/^##### 1.- Give the network reducer to Redux$/;"	l4subsection	line:192
+2.- Here you have 2 options:	/Users/colin/code/github/react-native-offline/README.md	/^##### 2.- Here you have 2 options:$/;"	l4subsection	line:207
+`ReduxNetworkProvider`	/Users/colin/code/github/react-native-offline/README.md	/^##### `ReduxNetworkProvider`$/;"	l4subsection	line:209
+`networkSaga`	/Users/colin/code/github/react-native-offline/README.md	/^##### `networkSaga`$/;"	l4subsection	line:235
+3.- Access your network state in your components using `mapStateToProps()`, as `state.network.isConnected`.	/Users/colin/code/github/react-native-offline/README.md	/^##### 3.- Access your network state in your components using `mapStateToProps()`, as `state.netw/;"	l4subsection	line:254
+`createNetworkMiddleware()`	/Users/colin/code/github/react-native-offline/README.md	/^#### `createNetworkMiddleware()`$/;"	subsubsection	line:264
+PO Config	/Users/colin/code/github/react-native-offline/README.md	/^##### PO Config$/;"	l4subsection	line:277
+Thunks Config	/Users/colin/code/github/react-native-offline/README.md	/^##### Thunks Config$/;"	l4subsection	line:287
+Usage	/Users/colin/code/github/react-native-offline/README.md	/^##### Usage$/;"	l4subsection	line:313
+Offline Queue	/Users/colin/code/github/react-native-offline/README.md	/^### Offline Queue$/;"	subsection	line:366
+Plain Objects	/Users/colin/code/github/react-native-offline/README.md	/^#### Plain Objects$/;"	subsubsection	line:372
+Examples	/Users/colin/code/github/react-native-offline/README.md	/^##### Examples$/;"	l4subsection	line:386
+Thunks	/Users/colin/code/github/react-native-offline/README.md	/^#### Thunks$/;"	subsubsection	line:416
+Other utilities	/Users/colin/code/github/react-native-offline/README.md	/^### Other utilities$/;"	subsection	line:432
+`checkInternetConnection()`	/Users/colin/code/github/react-native-offline/README.md	/^#### `checkInternetConnection()`$/;"	subsubsection	line:434
+Example	/Users/colin/code/github/react-native-offline/README.md	/^##### Example$/;"	l4subsection	line:446
+Miscellanea	/Users/colin/code/github/react-native-offline/README.md	/^## Miscellanea$/;"	section	line:462
+FAQ	/Users/colin/code/github/react-native-offline/README.md	/^### FAQ$/;"	subsection	line:464
+How to test offline behavior while actually being online	/Users/colin/code/github/react-native-offline/README.md	/^#### How to test offline behavior while actually being online$/;"	subsubsection	line:466
+How to orchestrate Redux to dispatch `CONNECTION_CHANGE` as the first action when the app starts up	/Users/colin/code/github/react-native-offline/README.md	/^#### How to orchestrate Redux to dispatch `CONNECTION_CHANGE` as the first action when the app s/;"	subsubsection	line:471
+How to intercept and queue actions when the server responds with client (4xx) or server (5xx) errors	/Users/colin/code/github/react-native-offline/README.md	/^#### How to intercept and queue actions when the server responds with client (4xx) or server (5x/;"	subsubsection	line:539
+How to persist and rehydrate thunks in the offline queue with Redux Persist	/Users/colin/code/github/react-native-offline/README.md	/^#### How to persist and rehydrate thunks in the offline queue with Redux Persist$/;"	subsubsection	line:561
+Using redux-saga 1.0.0-beta.x	/Users/colin/code/github/react-native-offline/README.md	/^#### Using redux-saga 1.0.0-beta.x$/;"	subsubsection	line:653
+Inspiration	/Users/colin/code/github/react-native-offline/README.md	/^### Inspiration$/;"	subsection	line:662
+License	/Users/colin/code/github/react-native-offline/README.md	/^### License$/;"	subsection	line:665
+Contributors	/Users/colin/code/github/react-native-offline/README.md	/^## Contributors$/;"	section	line:668
+type	/Users/colin/code/github/react-native-offline/flow-typed/npm/react-test-renderer_v16.x.x.js	/^  type: string,$/;"	property	line:10	class:type
+props	/Users/colin/code/github/react-native-offline/flow-typed/npm/react-test-renderer_v16.x.x.js	/^  props: { [propName: string]: any },$/;"	class	line:11	class:type
+children	/Users/colin/code/github/react-native-offline/flow-typed/npm/react-test-renderer_v16.x.x.js	/^  children: null | ReactTestRendererJSON[]$/;"	property	line:12	class:type
+type	/Users/colin/code/github/react-native-offline/flow-typed/npm/react-test-renderer_v16.x.x.js	/^type ReactTestRendererJSON = {$/;"	class	line:9
+instance	/Users/colin/code/github/react-native-offline/flow-typed/npm/react-test-renderer_v16.x.x.js	/^  instance: ?ReactComponentInstance,$/;"	property	line:22	class:type
+type	/Users/colin/code/github/react-native-offline/flow-typed/npm/react-test-renderer_v16.x.x.js	/^  type: string,$/;"	property	line:23	class:type
+props	/Users/colin/code/github/react-native-offline/flow-typed/npm/react-test-renderer_v16.x.x.js	/^  props: { [propName: string]: any },$/;"	class	line:24	class:type
+parent	/Users/colin/code/github/react-native-offline/flow-typed/npm/react-test-renderer_v16.x.x.js	/^  parent: null | ReactTestInstance,$/;"	property	line:25	class:type
+children	/Users/colin/code/github/react-native-offline/flow-typed/npm/react-test-renderer_v16.x.x.js	/^  children: Array<ReactTestInstance | string>,$/;"	property	line:26	class:type
+type	/Users/colin/code/github/react-native-offline/flow-typed/npm/react-test-renderer_v16.x.x.js	/^type ReactTestInstance = {$/;"	class	line:21
+rejects	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  rejects: JestExpectType,$/;"	property	line:136	class:type
+resolves	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  resolves: JestExpectType$/;"	property	line:141	class:type
+type	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^type JestPromiseType = {$/;"	class	line:131
+calls	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  calls: JestCallsType$/;"	property	line:905	class:type
+type	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^type JestSpyType = {$/;"	class	line:904
+close	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  comment: { close: string, open: string },$/;"	property	line:1053	class:type.comment
+open	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  comment: { close: string, open: string },$/;"	property	line:1053	class:type.comment
+comment	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  comment: { close: string, open: string },$/;"	class	line:1053	class:type
+close	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  content: { close: string, open: string },$/;"	property	line:1054	class:type.content
+open	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  content: { close: string, open: string },$/;"	property	line:1054	class:type.content
+content	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  content: { close: string, open: string },$/;"	class	line:1054	class:type
+close	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  prop: { close: string, open: string },$/;"	property	line:1055	class:type.prop
+open	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  prop: { close: string, open: string },$/;"	property	line:1055	class:type.prop
+prop	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  prop: { close: string, open: string },$/;"	class	line:1055	class:type
+close	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  tag: { close: string, open: string },$/;"	property	line:1056	class:type.tag
+open	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  tag: { close: string, open: string },$/;"	property	line:1056	class:type.tag
+tag	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  tag: { close: string, open: string },$/;"	class	line:1056	class:type
+close	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  value: { close: string, open: string },$/;"	property	line:1057	class:type.value
+open	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  value: { close: string, open: string },$/;"	property	line:1057	class:type.value
+value	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  value: { close: string, open: string },$/;"	class	line:1057	class:type
+type	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^type JestPrettyFormatColors = {$/;"	class	line:1052
+print	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  print: ($/;"	property	line:1086	class:type
+test	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^  test: any => boolean,$/;"	property	line:1093	class:type
+type	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^type JestPrettyFormatPlugin = {$/;"	class	line:1085
+spyOn	/Users/colin/code/github/react-native-offline/flow-typed/npm/jest_v23.x.x.js	/^declare function spyOn(value: mixed, method: string): Object;$/;"	function	line:1133
+declare	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^  declare export type PrettierParser = {$/;"	class	line:22
+languages	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^    languages: SupportLanguage,$/;"	property	line:53	class:declare
+parsers	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^    parsers: { [parserName: string]: Parser },$/;"	class	line:54	class:declare
+printers	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^    printers: { [astFormat: string]: Printer }$/;"	class	line:55	class:declare
+declare	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^  declare export type Plugin = {$/;"	class	line:52
+parse	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^    parse: ($/;"	property	line:59	class:declare
+astFormat	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^    astFormat: string$/;"	property	line:64	class:declare
+declare	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^  declare export type Parser = {$/;"	class	line:58
+print	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^    print: ($/;"	property	line:68	class:declare
+embed	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^    embed: ($/;"	property	line:73	class:declare
+declare	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^  declare export type Printer = {$/;"	class	line:67
+name	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^    name: string,$/;"	property	line:112	class:declare
+since	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^    since: string,$/;"	property	line:113	class:declare
+parsers	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^    parsers: Array<string>,$/;"	property	line:114	class:declare
+declare	/Users/colin/code/github/react-native-offline/flow-typed/npm/prettier_v1.x.x.js	/^  declare export type SupportLanguage = {$/;"	class	line:111
+A	/Users/colin/code/github/react-native-offline/flow-typed/npm/redux_v4.x.x.js	/^  declare export type ActionCreators<K, A> = { [key: K]: ActionCreator<A, any> };$/;"	class	line:51
+version	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^version: 2$/;"	function	line:1
+jobs	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^jobs:$/;"	function	line:2
+build	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^  build:$/;"	function	line:3
+working_directory	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^    working_directory: ~\/rgommezz\/react-native-offline$/;"	function	line:4
+parallelism	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^    parallelism: 1$/;"	function	line:5
+shell	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^    shell: \/bin\/bash --login$/;"	function	line:6
+environment	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^    environment:$/;"	function	line:7
+CIRCLE_ARTIFACTS	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^      CIRCLE_ARTIFACTS: \/tmp\/circleci-artifacts$/;"	function	line:8
+CIRCLE_TEST_REPORTS	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^      CIRCLE_TEST_REPORTS: \/tmp\/circleci-test-results$/;"	function	line:9
+docker	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^    docker:$/;"	function	line:10
+command	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^      command: \/sbin\/init$/;"	function	line:12
+steps	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^    steps:$/;"	function	line:13
+working_directory	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^        working_directory: ~\/rgommezz\/react-native-offline$/;"	function	line:17
+command	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^        command: nvm install 9.10.0 && nvm alias default 9.10.0$/;"	function	line:18
+keys	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^        keys:$/;"	function	line:21
+key	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^        key: v1-dep-{{ .Branch }}-{{ epoch }}$/;"	function	line:34
+paths	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^        paths:$/;"	function	line:35
+path	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^        path: \/tmp\/circleci-test-results$/;"	function	line:53
+path	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^        path: \/tmp\/circleci-artifacts$/;"	function	line:56
+path	/Users/colin/code/github/react-native-offline/.circleci/config.yml	/^        path: \/tmp\/circleci-test-results$/;"	function	line:58
+react-native-offline v3.x.x	/Users/colin/code/github/react-native-offline/docs_3x.md	/^# react-native-offline v3.x.x$/;"	function	line:1
+Contents	/Users/colin/code/github/react-native-offline/docs_3x.md	/^## Contents$/;"	function	line:5
+Installation	/Users/colin/code/github/react-native-offline/docs_3x.md	/^## Installation$/;"	function	line:25
+Android	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### Android$/;"	function	line:31
+API	/Users/colin/code/github/react-native-offline/docs_3x.md	/^## API$/;"	function	line:36
+Component Utilities	/Users/colin/code/github/react-native-offline/docs_3x.md	/^### Component Utilities$/;"	function	line:38
+Config	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Config$/;"	function	line:59
+`ConnectivityRenderer`	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### `ConnectivityRenderer`$/;"	function	line:89
+Props	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Props$/;"	function	line:92
+Usage	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Usage$/;"	function	line:102
+Usage	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### Usage$/;"	function	line:152
+1.- Give the network reducer to Redux	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### 1.- Give the network reducer to Redux$/;"	function	line:154
+2.- Here you have 2 options:	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### 2.- Here you have 2 options:$/;"	function	line:169
+2b.- Fork `networkEventsListenerSaga` from your root saga.	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### 2b.- Fork `networkEventsListenerSaga` from your root saga.$/;"	function	line:199
+3.- Access your network state in your components using `mapStateToProps()`, as `state.network.isConnected`.	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### 3.- Access your network state in your components using `mapStateToProps()`, as `state.netw/;"	function	line:218
+`createNetworkMiddleware()`	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### `createNetworkMiddleware()`$/;"	function	line:228
+PO Config	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### PO Config$/;"	function	line:240
+Usage	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Usage$/;"	function	line:274
+Plain Objects	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### Plain Objects$/;"	function	line:332
+Examples	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Examples$/;"	function	line:346
+Thunks	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### Thunks$/;"	function	line:376
+Other utilities	/Users/colin/code/github/react-native-offline/docs_3x.md	/^### Other utilities$/;"	function	line:392
+`checkInternetConnection()`	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### `checkInternetConnection()`$/;"	function	line:394
+Example	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Example$/;"	function	line:401
+Miscellanea	/Users/colin/code/github/react-native-offline/docs_3x.md	/^## Miscellanea$/;"	function	line:417
+FAQ	/Users/colin/code/github/react-native-offline/docs_3x.md	/^### FAQ$/;"	function	line:419
+How to test offline behavior while actually being online	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### How to test offline behavior while actually being online$/;"	function	line:421
+How to persist and rehydrate thunks in the offline queue with Redux Persist	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### How to persist and rehydrate thunks in the offline queue with Redux Persist$/;"	function	line:529
+Inspiration	/Users/colin/code/github/react-native-offline/docs_3x.md	/^### Inspiration$/;"	function	line:622
+License	/Users/colin/code/github/react-native-offline/docs_3x.md	/^### License$/;"	function	line:625
+Contributors	/Users/colin/code/github/react-native-offline/docs_3x.md	/^## Contributors$/;"	function	line:628
+react-native-offline v3.x.x	/Users/colin/code/github/react-native-offline/docs_3x.md	/^# react-native-offline v3.x.x$/;"	chapter	line:1
+Contents	/Users/colin/code/github/react-native-offline/docs_3x.md	/^## Contents$/;"	section	line:5
+Installation	/Users/colin/code/github/react-native-offline/docs_3x.md	/^## Installation$/;"	section	line:25
+Android	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### Android$/;"	subsubsection	line:31
+API	/Users/colin/code/github/react-native-offline/docs_3x.md	/^## API$/;"	section	line:36
+Component Utilities	/Users/colin/code/github/react-native-offline/docs_3x.md	/^### Component Utilities$/;"	subsection	line:38
+Config	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Config$/;"	l4subsection	line:59
+`ConnectivityRenderer`	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### `ConnectivityRenderer`$/;"	subsubsection	line:89
+Props	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Props$/;"	l4subsection	line:92
+Usage	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Usage$/;"	l4subsection	line:102
+Usage	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### Usage$/;"	subsubsection	line:152
+1.- Give the network reducer to Redux	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### 1.- Give the network reducer to Redux$/;"	l4subsection	line:154
+2.- Here you have 2 options:	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### 2.- Here you have 2 options:$/;"	l4subsection	line:169
+2b.- Fork `networkEventsListenerSaga` from your root saga.	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### 2b.- Fork `networkEventsListenerSaga` from your root saga.$/;"	l4subsection	line:199
+3.- Access your network state in your components using `mapStateToProps()`, as `state.network.isConnected`.	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### 3.- Access your network state in your components using `mapStateToProps()`, as `state.netw/;"	l4subsection	line:218
+`createNetworkMiddleware()`	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### `createNetworkMiddleware()`$/;"	subsubsection	line:228
+PO Config	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### PO Config$/;"	l4subsection	line:240
+Usage	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Usage$/;"	l4subsection	line:274
+Plain Objects	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### Plain Objects$/;"	subsubsection	line:332
+Examples	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Examples$/;"	l4subsection	line:346
+Thunks	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### Thunks$/;"	subsubsection	line:376
+Other utilities	/Users/colin/code/github/react-native-offline/docs_3x.md	/^### Other utilities$/;"	subsection	line:392
+`checkInternetConnection()`	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### `checkInternetConnection()`$/;"	subsubsection	line:394
+Example	/Users/colin/code/github/react-native-offline/docs_3x.md	/^##### Example$/;"	l4subsection	line:401
+Miscellanea	/Users/colin/code/github/react-native-offline/docs_3x.md	/^## Miscellanea$/;"	section	line:417
+FAQ	/Users/colin/code/github/react-native-offline/docs_3x.md	/^### FAQ$/;"	subsection	line:419
+How to test offline behavior while actually being online	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### How to test offline behavior while actually being online$/;"	subsubsection	line:421
+How to persist and rehydrate thunks in the offline queue with Redux Persist	/Users/colin/code/github/react-native-offline/docs_3x.md	/^#### How to persist and rehydrate thunks in the offline queue with Redux Persist$/;"	subsubsection	line:529
+Inspiration	/Users/colin/code/github/react-native-offline/docs_3x.md	/^### Inspiration$/;"	subsection	line:622
+License	/Users/colin/code/github/react-native-offline/docs_3x.md	/^### License$/;"	subsection	line:625
+Contributors	/Users/colin/code/github/react-native-offline/docs_3x.md	/^## Contributors$/;"	section	line:628
+isConnected	/Users/colin/code/github/react-native-offline/src/types.js	/^  isConnected: boolean,$/;"	property	line:4	class:type
+type	/Users/colin/code/github/react-native-offline/src/types.js	/^export type State = {$/;"	class	line:3
+type	/Users/colin/code/github/react-native-offline/src/types.js	/^  type: string,$/;"	property	line:8	class:type
+payload	/Users/colin/code/github/react-native-offline/src/types.js	/^  payload: any,$/;"	property	line:9	class:type
+type	/Users/colin/code/github/react-native-offline/src/types.js	/^export type FluxAction = {$/;"	class	line:7
+type	/Users/colin/code/github/react-native-offline/src/types.js	/^  type: string,$/;"	property	line:17	class:type
+payload	/Users/colin/code/github/react-native-offline/src/types.js	/^  payload: {$/;"	property	line:18	class:type
+meta	/Users/colin/code/github/react-native-offline/src/types.js	/^  meta: {$/;"	property	line:22	class:type
+type	/Users/colin/code/github/react-native-offline/src/types.js	/^export type FluxActionWithPreviousIntent = {$/;"	class	line:16
+type	/Users/colin/code/github/react-native-offline/src/types.js	/^  type: string,$/;"	property	line:29	class:type
+payload	/Users/colin/code/github/react-native-offline/src/types.js	/^  payload: FluxAction | Function,$/;"	property	line:30	class:type
+type	/Users/colin/code/github/react-native-offline/src/types.js	/^export type FluxActionForRemoval = {$/;"	class	line:28
+type	/Users/colin/code/github/react-native-offline/src/types.js	/^  type: string,$/;"	property	line:34	class:type
+payload	/Users/colin/code/github/react-native-offline/src/types.js	/^  payload: string,$/;"	property	line:35	class:type
+type	/Users/colin/code/github/react-native-offline/src/types.js	/^export type FluxActionForDismissal = {$/;"	class	line:33
+isConnected	/Users/colin/code/github/react-native-offline/src/types.js	/^  isConnected: boolean,$/;"	property	line:39	class:type
+actionQueue	/Users/colin/code/github/react-native-offline/src/types.js	/^  actionQueue: Array<*>,$/;"	property	line:40	class:type
+type	/Users/colin/code/github/react-native-offline/src/types.js	/^export type NetworkState = {$/;"	class	line:38
+get NetworkProvider	/Users/colin/code/github/react-native-offline/src/index.js	/^  get NetworkProvider() {$/;"	function	line:2
+NetworkProvider	/Users/colin/code/github/react-native-offline/src/index.js	/^  get NetworkProvider() {$/;"	getter	line:2	class:module.exports	signature:()
+get ReduxNetworkProvider	/Users/colin/code/github/react-native-offline/src/index.js	/^  get ReduxNetworkProvider() {$/;"	function	line:5
+ReduxNetworkProvider	/Users/colin/code/github/react-native-offline/src/index.js	/^  get ReduxNetworkProvider() {$/;"	getter	line:5	class:module.exports	signature:()
+get NetworkConsumer	/Users/colin/code/github/react-native-offline/src/index.js	/^  get NetworkConsumer() {$/;"	function	line:8
+NetworkConsumer	/Users/colin/code/github/react-native-offline/src/index.js	/^  get NetworkConsumer() {$/;"	getter	line:8	class:module.exports	signature:()
+get reducer	/Users/colin/code/github/react-native-offline/src/index.js	/^  get reducer() {$/;"	function	line:11
+reducer	/Users/colin/code/github/react-native-offline/src/index.js	/^  get reducer() {$/;"	getter	line:11	class:module.exports	signature:()
+get createNetworkMiddleware	/Users/colin/code/github/react-native-offline/src/index.js	/^  get createNetworkMiddleware() {$/;"	function	line:14
+createNetworkMiddleware	/Users/colin/code/github/react-native-offline/src/index.js	/^  get createNetworkMiddleware() {$/;"	getter	line:14	class:module.exports	signature:()
+get offlineActionTypes	/Users/colin/code/github/react-native-offline/src/index.js	/^  get offlineActionTypes() {$/;"	function	line:17
+offlineActionTypes	/Users/colin/code/github/react-native-offline/src/index.js	/^  get offlineActionTypes() {$/;"	getter	line:17	class:module.exports	signature:()
+get networkSaga	/Users/colin/code/github/react-native-offline/src/index.js	/^  get networkSaga() {$/;"	function	line:20
+networkSaga	/Users/colin/code/github/react-native-offline/src/index.js	/^  get networkSaga() {$/;"	getter	line:20	class:module.exports	signature:()
+get checkInternetConnection	/Users/colin/code/github/react-native-offline/src/index.js	/^  get checkInternetConnection() {$/;"	function	line:23
+checkInternetConnection	/Users/colin/code/github/react-native-offline/src/index.js	/^  get checkInternetConnection() {$/;"	getter	line:23	class:module.exports	signature:()
+exports	/Users/colin/code/github/react-native-offline/src/index.js	/^module.exports = {$/;"	class	line:1	class:module
+DEFAULT_TIMEOUT	/Users/colin/code/github/react-native-offline/src/utils/constants.js	/^export const DEFAULT_TIMEOUT = 10000;$/;"	constant	line:2
+DEFAULT_PING_SERVER_URL	/Users/colin/code/github/react-native-offline/src/utils/constants.js	/^export const DEFAULT_PING_SERVER_URL = 'https:\/\/www.google.com\/';$/;"	constant	line:3
+DEFAULT_HTTP_METHOD	/Users/colin/code/github/react-native-offline/src/utils/constants.js	/^export const DEFAULT_HTTP_METHOD = 'HEAD';$/;"	constant	line:4
+wait	/Users/colin/code/github/react-native-offline/src/utils/wait.js	/^const wait = t => new Promise(resolve => setTimeout(resolve, t));$/;"	constant	line:1
+status	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^  status: number,$/;"	property	line:23	class:type
+type	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^type ResolvedValue = {$/;"	class	line:22
+Cache-Control	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^  'Cache-Control': 'no-cache, no-store, must-revalidate',$/;"	property	line:27	class:headers
+Pragma	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^  Pragma: 'no-cache',$/;"	property	line:28	class:headers
+Expires	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^  Expires: 0,$/;"	property	line:29	class:headers
+headers	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^export const headers = {$/;"	class	line:26
+onLoad	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^      xhr.onload = function onLoad() {$/;"	function	line:52
+onLoad	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^      xhr.onload = function onLoad() {$/;"	function	line:52	function:makeHttpRequest	signature:()
+onError	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^      xhr.onerror = function onError() {$/;"	function	line:64
+onError	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^      xhr.onerror = function onError() {$/;"	function	line:64	function:makeHttpRequest	signature:()
+onTimeOut	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^      xhr.ontimeout = function onTimeOut() {$/;"	function	line:69
+onTimeOut	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^      xhr.ontimeout = function onTimeOut() {$/;"	function	line:69	function:makeHttpRequest	signature:()
+makeHttpRequest	/Users/colin/code/github/react-native-offline/src/utils/makeHttpRequest.js	/^export default function makeHttpRequest({$/;"	function	line:40	signature:({ method = DEFAULT_HTTP_METHOD, url = DEFAULT_PING_SERVER_URL, timeout = DEFAULT_TIMEOUT, testMethod, }: Options = {})
+getSimilarActionInQueue	/Users/colin/code/github/react-native-offline/src/utils/getSimilarActionInQueue.js	/^export default function getSimilarActionInQueue($/;"	function	line:10	signature:( action: *, actionQueue: Array<*>, )
+url	/Users/colin/code/github/react-native-offline/src/utils/checkInternetAccess.js	/^  url: string,$/;"	property	line:11	class:type
+timeout	/Users/colin/code/github/react-native-offline/src/utils/checkInternetAccess.js	/^  timeout: number,$/;"	property	line:12	class:type
+method	/Users/colin/code/github/react-native-offline/src/utils/checkInternetAccess.js	/^  method: HTTPMethod,$/;"	property	line:13	class:type
+type	/Users/colin/code/github/react-native-offline/src/utils/checkInternetAccess.js	/^type Arguments = {$/;"	class	line:10
+interval	/Users/colin/code/github/react-native-offline/src/utils/checkConnectivityInterval.js	/^let interval = null;$/;"	variable	line:3
+getInterval	/Users/colin/code/github/react-native-offline/src/utils/checkConnectivityInterval.js	/^export function getInterval() {$/;"	function	line:5
+getInterval	/Users/colin/code/github/react-native-offline/src/utils/checkConnectivityInterval.js	/^export function getInterval() {$/;"	function	line:5	signature:()
+setup	/Users/colin/code/github/react-native-offline/src/utils/checkConnectivityInterval.js	/^export function setup(checkFn: Function, t: number) {$/;"	function	line:9
+setup	/Users/colin/code/github/react-native-offline/src/utils/checkConnectivityInterval.js	/^export function setup(checkFn: Function, t: number) {$/;"	function	line:9	signature:(checkFn: Function, t: number)
+clear	/Users/colin/code/github/react-native-offline/src/utils/checkConnectivityInterval.js	/^export function clear() {$/;"	function	line:15
+clear	/Users/colin/code/github/react-native-offline/src/utils/checkConnectivityInterval.js	/^export function clear() {$/;"	function	line:15	signature:()
+NetworkConsumer	/Users/colin/code/github/react-native-offline/src/components/NetworkConsumer.js	/^export default function NetworkConsumer({ children }: Function) {$/;"	function	line:9
+NetworkConsumer	/Users/colin/code/github/react-native-offline/src/components/NetworkConsumer.js	/^export default function NetworkConsumer({ children }: Function) {$/;"	function	line:9	signature:({ children }: Function)
+dispatch	/Users/colin/code/github/react-native-offline/src/components/ReduxNetworkProvider.js	/^  dispatch: FluxAction => FluxAction,$/;"	property	line:14	class:type
+isConnected	/Users/colin/code/github/react-native-offline/src/components/ReduxNetworkProvider.js	/^  isConnected: boolean,$/;"	property	line:15	class:type
+type	/Users/colin/code/github/react-native-offline/src/components/ReduxNetworkProvider.js	/^type Props = {$/;"	class	line:13
+ReduxNetworkProvider	/Users/colin/code/github/react-native-offline/src/components/ReduxNetworkProvider.js	/^class ReduxNetworkProvider extends React.Component<Props> {$/;"	class	line:26
+render	/Users/colin/code/github/react-native-offline/src/components/ReduxNetworkProvider.js	/^  render() {$/;"	function	line:44
+mapStateToProps	/Users/colin/code/github/react-native-offline/src/components/ReduxNetworkProvider.js	/^function mapStateToProps(state: { network: NetworkState }) {$/;"	function	line:57
+mapStateToProps	/Users/colin/code/github/react-native-offline/src/components/ReduxNetworkProvider.js	/^function mapStateToProps(state: { network: NetworkState }) {$/;"	function	line:57	signature:(state: { network: NetworkState })
+ConnectedReduxNetworkProvider	/Users/colin/code/github/react-native-offline/src/components/ReduxNetworkProvider.js	/^const ConnectedReduxNetworkProvider = connect(mapStateToProps)($/;"	constant	line:63
+NetworkContext	/Users/colin/code/github/react-native-offline/src/components/NetworkContext.js	/^const NetworkContext = createContext();$/;"	constant	line:4
+isConnected	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^  isConnected: boolean,$/;"	property	line:13	class:type
+type	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^type ConnectivityState = {$/;"	class	line:12
+pingTimeout	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^  pingTimeout: DEFAULT_TIMEOUT,$/;"	property	line:28	class:NetworkProvider.defaultProps
+pingServerUrl	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^  pingServerUrl: DEFAULT_PING_SERVER_URL,$/;"	property	line:29	class:NetworkProvider.defaultProps
+shouldPing	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^  shouldPing: true,$/;"	property	line:30	class:NetworkProvider.defaultProps
+pingInterval	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^  pingInterval: 0,$/;"	property	line:31	class:NetworkProvider.defaultProps
+pingOnlyIfOffline	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^  pingOnlyIfOffline: false,$/;"	property	line:32	class:NetworkProvider.defaultProps
+pingInBackground	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^  pingInBackground: false,$/;"	property	line:33	class:NetworkProvider.defaultProps
+httpMethod	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^  httpMethod: DEFAULT_HTTP_METHOD,$/;"	property	line:34	class:NetworkProvider.defaultProps
+defaultProps	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^NetworkProvider.defaultProps = {$/;"	class	line:27	class:NetworkProvider
+NetworkProvider	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^function NetworkProvider(props: Props) {$/;"	function	line:37
+NetworkProvider	/Users/colin/code/github/react-native-offline/src/components/NetworkProvider.js	/^function NetworkProvider(props: Props) {$/;"	function	line:37	signature:(props: Props)
+children	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  children: (state: State) => React.Node,$/;"	property	line:14	class:type
+type	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^export type RequiredProps = {$/;"	class	line:13
+onConnectivityChange	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  onConnectivityChange: (isConnected: boolean) => void,$/;"	property	line:18	class:type
+pingTimeout	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  pingTimeout: number,$/;"	property	line:19	class:type
+pingServerUrl	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  pingServerUrl: string,$/;"	property	line:20	class:type
+shouldPing	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  shouldPing: boolean,$/;"	property	line:21	class:type
+pingInterval	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  pingInterval: number,$/;"	property	line:22	class:type
+pingOnlyIfOffline	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  pingOnlyIfOffline: boolean,$/;"	property	line:23	class:type
+pingInBackground	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  pingInBackground: boolean,$/;"	property	line:24	class:type
+httpMethod	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  httpMethod: HTTPMethod,$/;"	property	line:25	class:type
+type	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^export type DefaultProps = {$/;"	class	line:17
+validateProps	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^function validateProps(props: Props) {$/;"	function	line:30
+validateProps	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^function validateProps(props: Props) {$/;"	function	line:30	signature:(props: Props)
+NetworkConnectivity	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^class NetworkConnectivity extends React.PureComponent<Props, State> {$/;"	class	line:59
+constructor	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  constructor(props: Props) {$/;"	function	line:71
+constructor	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  constructor(props: Props) {$/;"	method	line:71	class:NetworkConnectivity	signature:(props: Props)
+isConnected	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^      isConnected: true,$/;"	property	line:75	class:NetworkConnectivity.constructor.state
+state	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^    this.state = {$/;"	class	line:74	class:NetworkConnectivity.constructor
+componentDidMount	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  async componentDidMount() {$/;"	method	line:79	class:NetworkConnectivity	signature:()
+componentDidUpdate	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  componentDidUpdate(prevProps: Props, prevState: State) {$/;"	function	line:94
+componentDidUpdate	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  componentDidUpdate(prevProps: Props, prevState: State) {$/;"	method	line:94	class:NetworkConnectivity	signature:(prevProps: Props, prevState: State)
+componentWillUnmount	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  componentWillUnmount() {$/;"	function	line:105
+componentWillUnmount	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  componentWillUnmount() {$/;"	method	line:105	class:NetworkConnectivity	signature:()
+getConnectionChangeHandler	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  getConnectionChangeHandler() {$/;"	function	line:111
+getConnectionChangeHandler	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  getConnectionChangeHandler() {$/;"	method	line:111	class:NetworkConnectivity	signature:()
+hasInternetAccess	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^    const hasInternetAccess = await checkInternetAccess({$/;"	constant	line:136
+render	/Users/colin/code/github/react-native-offline/src/components/NetworkConnectivity.js	/^  render() {$/;"	function	line:159
+isConnected	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^  isConnected: true,$/;"	property	line:14	class:initialState
+actionQueue	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^  actionQueue: [],$/;"	property	line:15	class:initialState
+initialState	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^export const initialState = {$/;"	class	line:13
+isActionToRetry	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^  const isActionToRetry =$/;"	constant	line:22
+isThunkToRetry	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^  const isThunkToRetry =$/;"	constant	line:25
+actionToLookUp	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^    const actionToLookUp = prevAction || prevThunk;$/;"	constant	line:30
+actionWithMetaData	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^    const actionWithMetaData =$/;"	constant	line:31
+similarActionQueued	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^    const similarActionQueued = getSimilarActionInQueue($/;"	constant	line:35
+similarActionQueued	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^  const similarActionQueued = getSimilarActionInQueue($/;"	constant	line:57
+newActionQueue	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^  const newActionQueue = state.actionQueue.filter((action: FluxAction) => {$/;"	constant	line:72
+switch	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^  switch (action.type) {$/;"	function	line:87
+networkSelector	/Users/colin/code/github/react-native-offline/src/redux/reducer.js	/^export function networkSelector(state: { network: NetworkState }) {$/;"	function	line:104
+pingTimeout	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^  pingTimeout: number,$/;"	property	line:17	class:type
+pingServerUrl	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^  pingServerUrl: string,$/;"	property	line:18	class:type
+shouldPing	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^  shouldPing: boolean,$/;"	property	line:19	class:type
+pingInterval	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^  pingInterval: number,$/;"	property	line:20	class:type
+pingOnlyIfOffline	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^  pingOnlyIfOffline: boolean,$/;"	property	line:21	class:type
+pingInBackground	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^  pingInBackground: boolean,$/;"	property	line:22	class:type
+httpMethod	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^  httpMethod: HTTPMethod,$/;"	property	line:23	class:type
+type	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^type Arguments = {$/;"	class	line:16
+netInfoEventChannelFn	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^export function netInfoEventChannelFn(emit: (param: boolean) => mixed) {$/;"	function	line:26
+netInfoEventChannelFn	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^export function netInfoEventChannelFn(emit: (param: boolean) => mixed) {$/;"	function	line:26	signature:(emit: (param: boolean) => mixed)
+intervalChannelFn	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^export function intervalChannelFn(interval: number) {$/;"	function	line:33
+intervalChannelFn	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^export function intervalChannelFn(interval: number) {$/;"	function	line:33	signature:(interval: number)
+createNetInfoConnectionChangeChannel	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^export function createNetInfoConnectionChangeChannel(channelFn) {$/;"	function	line:46
+createNetInfoConnectionChangeChannel	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^export function createNetInfoConnectionChangeChannel(channelFn) {$/;"	function	line:46	signature:(channelFn)
+createIntervalChannel	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^export function createIntervalChannel(interval: number, channelFn: Function) {$/;"	function	line:55
+createIntervalChannel	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^export function createIntervalChannel(interval: number, channelFn: Function) {$/;"	function	line:55	signature:(interval: number, channelFn: Function)
+initialConnection	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^    const initialConnection = yield call([NetInfo, NetInfo.isConnected.fetch]);$/;"	constant	line:77
+chan	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^  const chan = yield call($/;"	constant	line:86
+isConnected	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^      const isConnected = yield take(chan);$/;"	constant	line:92
+chan	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^  const chan = yield call($/;"	constant	line:153
+hasInternetAccess	/Users/colin/code/github/react-native-offline/src/redux/sagas.js	/^  const hasInternetAccess = yield call(checkInternetAccess, {$/;"	constant	line:194
+connectionChange	/Users/colin/code/github/react-native-offline/src/redux/actionCreators.js	/^export const connectionChange = (isConnected: boolean): FluxAction => ({$/;"	constant	line:13
+fetchOfflineMode	/Users/colin/code/github/react-native-offline/src/redux/actionCreators.js	/^export const fetchOfflineMode = ($/;"	constant	line:18
+removeActionFromQueue	/Users/colin/code/github/react-native-offline/src/redux/actionCreators.js	/^export const removeActionFromQueue = ($/;"	constant	line:43
+dismissActionsFromQueue	/Users/colin/code/github/react-native-offline/src/redux/actionCreators.js	/^export const dismissActionsFromQueue = ($/;"	constant	line:50
+CONNECTION_CHANGE	/Users/colin/code/github/react-native-offline/src/redux/actionTypes.js	/^  CONNECTION_CHANGE: '@@network-connectivity\/CONNECTION_CHANGE',$/;"	property	line:11	class:actionTypes
+FETCH_OFFLINE_MODE	/Users/colin/code/github/react-native-offline/src/redux/actionTypes.js	/^  FETCH_OFFLINE_MODE: '@@network-connectivity\/FETCH_OFFLINE_MODE',$/;"	property	line:12	class:actionTypes
+REMOVE_FROM_ACTION_QUEUE	/Users/colin/code/github/react-native-offline/src/redux/actionTypes.js	/^  REMOVE_FROM_ACTION_QUEUE: '@@network-connectivity\/REMOVE_FROM_ACTION_QUEUE',$/;"	property	line:13	class:actionTypes
+DISMISS_ACTIONS_FROM_QUEUE	/Users/colin/code/github/react-native-offline/src/redux/actionTypes.js	/^  DISMISS_ACTIONS_FROM_QUEUE:$/;"	property	line:14	class:actionTypes
+actionTypes	/Users/colin/code/github/react-native-offline/src/redux/actionTypes.js	/^const actionTypes: ActionTypes = {$/;"	class	line:10
+dispatch	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^  dispatch: (action: any) => void,$/;"	property	line:14	class:type
+type	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^type MiddlewareAPI<S> = {$/;"	class	line:13
+network	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^  network: NetworkState,$/;"	property	line:19	class:type
+type	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^type State = {$/;"	class	line:18
+validateParams	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function validateParams(regexActionType, actionTypes) {$/;"	function	line:28
+validateParams	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function validateParams(regexActionType, actionTypes) {$/;"	function	line:28	signature:(regexActionType, actionTypes)
+findActionToBeDismissed	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function findActionToBeDismissed(action, actionQueue) {$/;"	function	line:36
+findActionToBeDismissed	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function findActionToBeDismissed(action, actionQueue) {$/;"	function	line:36	signature:(action, actionQueue)
+isObjectAndShouldBeIntercepted	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function isObjectAndShouldBeIntercepted(action, regexActionType, actionTypes) {$/;"	function	line:43
+isObjectAndShouldBeIntercepted	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function isObjectAndShouldBeIntercepted(action, regexActionType, actionTypes) {$/;"	function	line:43	signature:(action, regexActionType, actionTypes)
+isThunkAndShouldBeIntercepted	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function isThunkAndShouldBeIntercepted(action) {$/;"	function	line:50
+isThunkAndShouldBeIntercepted	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function isThunkAndShouldBeIntercepted(action) {$/;"	function	line:50	signature:(action)
+checkIfActionShouldBeIntercepted	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function checkIfActionShouldBeIntercepted($/;"	function	line:54	signature:( action, regexActionType, actionTypes, )
+didComeBackOnline	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function didComeBackOnline(action, wasConnected) {$/;"	function	line:65
+didComeBackOnline	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function didComeBackOnline(action, wasConnected) {$/;"	function	line:65	signature:(action, wasConnected)
+createReleaseQueue	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^export const createReleaseQueue = (getState, next, delay) => async queue => {$/;"	constant	line:73
+createNetworkMiddleware	/Users/colin/code/github/react-native-offline/src/redux/createNetworkMiddleware.js	/^function createNetworkMiddleware({$/;"	function	line:88	signature:({ regexActionType = /, actionTypes = [], queueReleaseThrottle = 50, }: Arguments = {})
