@@ -70,7 +70,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "react-redux": "^6.0.0",
+    "react-redux": "^5.1.1",
     "redux": "4.x",
     "redux-saga": "^1.0.2"
   },
