@@ -34,6 +34,15 @@ class ReduxNetworkProvider extends React.Component<Props> {
     httpMethod: DEFAULT_HTTP_METHOD,
   };
 
+  shouldComponentUpdate({ isConnected }) {
+    const { isConnected: wasConnected } = this.props;
+    if (isConnected !== wasConnected) {
+      return false;
+    }
+
+    return true;
+  }
+
   handleConnectivityChange = (isConnected: boolean) => {
     const { isConnected: wasConnected, dispatch } = this.props;
     if (isConnected !== wasConnected) {
