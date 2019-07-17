@@ -1,6 +1,6 @@
 {
   "name": "react-native-offline",
-  "version": "4.4.0-compat1",
+  "version": "4.4.0-compat2",
   "description": "Handy toolbelt to deal with offline mode in React Native applications. Cross-platform, provides a smooth redux integration.",
   "main": "./src/index.js",
   "author": "Raul Gomez Acuña <raulgdeveloper@gmail.com> (https://github.com/rgommezz)",
@@ -14,7 +14,7 @@
     "test:coverage": "node --harmony node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "precommit": "yarn run lint",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "acll-contributors generate"
   },
   "repository": {
     "type": "git",
