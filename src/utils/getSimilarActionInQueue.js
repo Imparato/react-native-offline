@@ -15,9 +15,17 @@ export default function getSimilarActionInQueue(
     return actionQueue.find((queued: *) => isEqual(queued, action));
   }
   if (typeof action === 'function') {
-    return actionQueue.find(
-      (queued: *) => action.toString() === queued.toString(),
-    );
+    return actionQueue.find((queued: *) => {
+      let isArgsEqual;
+
+      if (action.meta && queued.meta) {
+        isArgsEqual = isEqual(action.meta.args, queued.meta.args);
+      } else {
+        isArgsEqual = true;
+      }
+
+      return action.toString() === queued.toString() && isArgsEqual;
+    });
   }
   return undefined;
 }
