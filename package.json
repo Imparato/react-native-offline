@@ -68,11 +68,10 @@
     "redux-thunk": "^2.3.0"
   },
   "dependencies": {
-    "@react-native-community/netinfo": "^4.1.2",
+    "@react-native-community/netinfo": "~3.2.1",
     "lodash": "^4.17.11",
     "react-redux": "^6.0.0 || ^7.0.0",
-    "redux": "~4.0",
-    "@react-native-community/netinfo": "~2.0.10"
+    "redux": "~4.0"
   },
   "jest": {
     "collectCoverage": true,
