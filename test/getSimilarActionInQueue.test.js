@@ -57,29 +57,6 @@ describe('getSimilarActionInQueue', () => {
         undefined,
       );
     });
-
-    it(`should return the thunk enqueued if
-     it presents the same shape that the thunk passed with same args`, () => {
-      const thunk = thunkFactory('foo');
-      thunk.meta = { args: [1] };
-
-      const thunkCopy = thunkFactory('bar');
-      thunkCopy.meta = { args: [1] };
-
-      expect(getSimilarActionInQueue(thunkCopy, [thunk])).toBe(thunk);
-      expect(getSimilarActionInQueue(thunk, [thunk])).toBe(thunk);
-    });
-
-    it(`should return undefined if the thunk enqueued
-     presents the same shape but with different meta args `, () => {
-      const thunk = thunkFactory('foo');
-      thunk.meta = { args: [1] };
-
-      const thunkCopy = thunkFactory('bar');
-      thunkCopy.meta = { args: [1, 2] };
-
-      expect(getSimilarActionInQueue(thunkCopy, [thunk])).toBe(undefined);
-    });
   });
 
   it('returns undefined if action JS type is something different', () => {
