@@ -25,6 +25,15 @@ type Props = OwnProps &
 class ReduxNetworkProvider extends React.Component<Props> {
   static defaultProps = DEFAULT_ARGS;
 
+  shouldComponentUpdate({ isConnected }: StateProps) {
+    const { isConnected: wasConnected } = this.props;
+    if (isConnected !== wasConnected) {
+      return false;
+    }
+
+    return true;
+  }
+
   handleConnectivityChange = (isConnected: boolean) => {
     const { isConnected: wasConnected, dispatch } = this.props;
     if (isConnected !== wasConnected) {
