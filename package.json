@@ -5,9 +5,8 @@
   "author": "Raul Gomez Acuña <raulgdeveloper@gmail.com> (https://github.com/rgommezz)",
   "license": "MIT",
   "source": "src/index.ts",
-  "main": "dist/react-native-offline.js",
+  "main": "src/index.ts",
   "module": "dist/react-native-offline.esm.js",
-  "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "rimraf dist && rollup -c",
     "lint": "eslint --ext .js,.ts,.tsx {src,test}/**/*.{ts,tsx}",
