@@ -125,7 +125,7 @@ export function* connectionHandler({
   pingServerUrl,
   httpMethod,
   customHeaders,
-}: NetInfoChangeArgs & { isConnected: boolean }) {
+}: NetInfoChangeArgs & { isConnected: boolean | null }) {
   if (shouldPing && isConnected) {
     yield fork(checkInternetAccessSaga, {
       pingTimeout,

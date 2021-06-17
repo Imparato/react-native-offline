@@ -14,7 +14,7 @@ interface AppState {
 type OwnProps = ConnectivityArgs;
 
 interface StateProps {
-  isConnected: boolean;
+  isConnected: boolean | null;
   dispatch: Dispatch;
 }
 
@@ -34,7 +34,7 @@ class ReduxNetworkProvider extends React.Component<Props> {
     return true;
   }
 
-  handleConnectivityChange = (isConnected: boolean) => {
+  handleConnectivityChange = (isConnected: boolean | null) => {
     const { isConnected: wasConnected, dispatch } = this.props;
     if (isConnected !== wasConnected) {
       dispatch(connectionChange(isConnected));
