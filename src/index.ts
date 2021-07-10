@@ -9,7 +9,7 @@ export { default as useIsConnected } from './hooks/useIsConnected';
 
 export { default as createNetworkMiddleware } from './redux/createNetworkMiddleware';
 
-export { default as networkSaga } from './redux/sagas';
+// export { default as networkSaga } from './redux/sagas';
 export { default as checkInternetConnection } from './utils/checkInternetConnection';
 
 export const createReducer = _reducer;
